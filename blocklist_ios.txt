@@ -1,6 +1,7 @@
-![Adblock Plus 2.0]
-! Name: My Custom Filter
-! Expires: 3 day
+![Adblock Plus ]
+! Name: Custom Filter
+! Description: Filter of malicious web resources (phishing, online fraud, malware, etc.) targeting ios
+!! Last updated: 2025-04-08
 
 ||ads.mopub.com^
 ||crashlytics.com^
