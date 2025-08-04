@@ -6052,7 +6052,6 @@ dlsdk.appsflyer.com^
 ||ads.youtube.com^
 ||analytics.youtube.com^
 ||hn9e.googlevideo.com^
-||i.ytimg.com^
 ||ai.ytimg.com^
 ||video-analytics.google.com^
 ||winwin.bet
