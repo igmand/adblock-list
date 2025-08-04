@@ -6039,6 +6039,10 @@ dlsdk.appsflyer.com^
 ||hit.interia.pl^
 ||gorod.tunt.lv^
 ||smi24.kz^
+||1win.com^
+||*1win*^
+||xbet.com^
+||*xbet*^
 
 
 
