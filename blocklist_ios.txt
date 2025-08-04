@@ -1,6 +1,6 @@
 ![Adblock Plus ]
 ! Name: Custom Filter
-! Description: Filter of malicious web resources (phishing, online fraud, malware, etc.) targeting ios
+! Description: Filter of malicious web resources (phishing, ads, malware, trackers) targeting ios
 !! Last updated: 2025-04-08
 
 ||ads.mopub.com^
