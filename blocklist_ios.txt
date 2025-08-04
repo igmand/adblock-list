@@ -6051,8 +6051,11 @@ dlsdk.appsflyer.com^
 ||ru.youtube.com^
 ||ads.youtube.com^
 ||analytics.youtube.com^
+||googlevideo.com
+||i.ytimg.com^
 ||ai.ytimg.com^
 ||video-analytics.google.com^
 ||winwin.bet
+
 
 
