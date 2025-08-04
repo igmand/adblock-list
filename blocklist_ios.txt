@@ -6043,6 +6043,15 @@ dlsdk.appsflyer.com^
 ||*1win*^
 ||xbet.com^
 ||*xbet*^
-
+||cache1.c.youtube.com^
+||lscache1.c.youtube.com^
+||redirector.c.youtube.com^
+||restrict.youtube.com^
+||ru.youtube.com^
+||ads.youtube.com^
+||analytics.youtube.com^
+||ai.ytimg.com^
+||video-analytics.google.com^
+||winwin.bet
 
 
