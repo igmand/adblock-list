@@ -6044,6 +6044,7 @@ dlsdk.appsflyer.com^
 ||*1win*^
 ||xbet.com^
 ||*xbet*^
+! youtube adblock
 ||cache1.c.youtube.com^
 ||lscache1.c.youtube.com^
 ||redirector.c.youtube.com^
@@ -6054,6 +6055,16 @@ dlsdk.appsflyer.com^
 ||hn9e.googlevideo.com^
 ||ai.ytimg.com^
 ||video-analytics.google.com^
+||r8.sn-cxauxaxjvh-hn9k.googlevideo.com
+||rr1---sn-5q8pojxquxjict-hn9e.googlevideo.com
+||r8---sn-cxauxaxjvh-hn9k.googlevideo.com
+||rr5---sn-cxauxaxjvh-hn9y.googlevideo.com
+||rr2---sn-5q8pojxquxjict-hn9e.googlevideo.com
+||hn9k.googlevideo.com
+||hn9y.googlevideo.com
+||hn9e7.googlevideo.com
+||hn9ez.googlevideo.com
+||hn9l.googlevideo.com
 ||winwin.bet
 
 
