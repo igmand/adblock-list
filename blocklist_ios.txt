@@ -32,7 +32,6 @@
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||apple-dns.net^
-||gstatic.com^
 ||inmobi.com^
 ||data.flurry.com^
 ||pangle.io^
