@@ -72,11 +72,14 @@
 ||apple.com/as-ads^
 ||apple.com/itc^
 ||apple.com/metrics^
+||xp.apple.com^
 ||apple.com/ConversionMeasurement^
 ||apple.com/sas^
 ||apple.com/adnetwork^
 ||apple.com/iAd^
 ||apple.com/adv^
+||mask-api.fe.apple-dns.net^
+||metrics.apple.com^
 ||yandex.ru/metrika^
 ||yandex.ru/ads^
 ||yandex.ru/context^
