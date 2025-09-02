@@ -42,7 +42,6 @@
 ||mobile-gtalk.l.google.com^
 ||analytics.google.com^
 ||appmetrica.yandex.net^
-||apple.com.akadns.net^
 ||conversions.appsflyer.com^
 ||ya-keyboard.s3.yandex.net^
 ||metrics.icloud.com^
