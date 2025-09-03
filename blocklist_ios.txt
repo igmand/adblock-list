@@ -72,7 +72,6 @@
 ||apple.com/as-ads^
 ||apple.com/itc^
 ||apple.com/metrics^
-||xp.apple.com^
 ||apple.com/ConversionMeasurement^
 ||apple.com/sas^
 ||apple.com/adnetwork^
