@@ -67,6 +67,7 @@
 ||google.com/beacon^
 ||google.com/collect^
 ||google.com/ads/user-lists^
+||youtubei/v1/player/ad_break?^
 ||apple.com/ads^
 ||apple.com/attribution^
 ||apple.com/as-ads^
