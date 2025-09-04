@@ -82,7 +82,9 @@
 ||clients.l.google.com^
 ||mask.icloud.com^
 ||mask-h2.icloud.com^
-
+||mobile.events.data.microsoft.com^
+||oneclient.sfx.ms^
+||gs-loc-apple.com^
 
 ||apple-dns.net^
 ||metrics.icloud.com^
