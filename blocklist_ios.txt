@@ -85,6 +85,8 @@
 ||mobile.events.data.microsoft.com^
 ||oneclient.sfx.ms^
 ||gs-loc-apple.com^
+||meta-ai-realtime.facebook.com^
+||wearable-ai-realtime.facebook.com^
 
 ||apple-dns.net^
 ||metrics.icloud.com^
