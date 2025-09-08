@@ -87,6 +87,7 @@
 ||gs-loc-apple.com^
 ||meta-ai-realtime.facebook.com^
 ||wearable-ai-realtime.facebook.com^
+||report.appmetrica.yandex.net^
 
 ||apple-dns.net^
 ||metrics.icloud.com^
