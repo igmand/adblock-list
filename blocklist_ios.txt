@@ -392,10 +392,6 @@
 ||n*adserv.com/vast.xml
 ||videosafe.tv/video/embed/*?autoplay=1$third-party
 ||dondlo.$third-party
-
-!-------------------------------------------------------------------------------!
-!------------------ Common general hiding rules---------------------------------!
-!-------------------------------------------------------------------------------!
 ||cenoobi.run^
 ||adtec.ru^
 ||x-app639-cc.tod99shi.com^
@@ -597,7 +593,7 @@
 ||lentainform.com^$third-party
 ||mpuls.ru^$third-party
 ||newseek.org^$third-party
-.infox.sg^$third-party
+||infox.sg^$third-party
 ||sv-pr.ru^$third-party
 ||uuidksinc.net^
 ||ferdarius.com^
@@ -833,8 +829,8 @@
 ||yxhstwzjbu.info$third-party
 ||traffer.biz^$third-party
 ||tophitbit.com^$third-party
-.potopy.ru^$third-party
-.vipko.ru^$third-party
+||potopy.ru^$third-party
+||vipko.ru^$third-party
 ||bs-dante.ru^$third-party
 ||nativerent.ru^$third-party
 ||extrablocks.ru^$third-party
@@ -1158,7 +1154,6 @@
 ||adregain.ru^$third-party
 ||adriverm.narod2.ru^$third-party
 ||adrock.ru^$third-party
-||adserver1.
 ||adservone.com^$third-party
 ||adsgid.com^$third-party
 ||adshop.ru/adshop/?
@@ -2604,8 +2599,6 @@
 ||cdn.ads-flipp.com^
 ||ozbnagojbop.com^
 ||185.149.120.173^
-/^139\.45\.197\.2(4[0-9]|5[0-4]):/
-/^139\.45\.197\.2(4[0-9]|5[0-4])/
 ||lmj8i.pro^
 ||ytru4.pro^
 ||at.adtech.redventures.io^
@@ -2690,7 +2683,6 @@
 ||adsfirm.com^
 ||goldsurf24h.pl^
 ||monetiza.co^
-||u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me^
 ||viavideo.digital^
 ||affforce.com^
 ||see-what-is-trending.com^
@@ -2798,7 +2790,6 @@
 ||adsmodern.com^
 ||yourdestinationlink.com^
 ||a.binpartner.com^
-||z8g0wlq5p0f6jg3k7eh2kyd58hjeskx0w9g5eu7q3m5hyq8l0xwofj3ap2nv.me^
 ||adcryp.to^
 ||bidio.pl^
 ||assets.newsmaxwidget.com^
@@ -2991,8 +2982,6 @@
 ||putrr*.com^
 ||ashow.pcpop.com^
 ||biggestplayer.cachefly.net^
-.bbelements.com^
-.doublepimp.com^
 ||1100ad.com^
 ||2performant.com^
 ||adamoads.com^
@@ -3064,12 +3053,6 @@
 ||heukmsactivator.com^
 ||getintopc.today^
 ||103.224.182.210^
-/^94\.242\.247\.(2[0-9]|3[0-2]):/
-/^94\.242\.247\.(2[0-9]|3[0-2])/
-/^23\.109\.170\.(18[7-9]|19[0-2])$/
-/^23\.109\.73\.\d{3}/
-/^188\.42\.84\.\d{1,3}/
-/^139\.45\.19[5-7]\.\d{1,3}/
 ||193.200.64.30^
 ||193.200.64.31^
 ||193.200.65.61^
@@ -3096,9 +3079,8 @@
 ||194.63.140.103^
 ||194.63.143.61^
 ||194.63.143.96^
-/^142\.91\.159\.(1[5-9]\d|2[0-4]\d|250):(80|443)$/
 ||188.72.219.36^
-188.72.219.36^
+||188.72.219.36^
 ||stripe.rs-1028-a.com^
 ||hub.fghtem.com^
 ||d71e6dd31a026d45.com
@@ -4436,7 +4418,7 @@
 ||adserver.sonicplug.com^
 ||adstatic.kozoom.com^
 ||adv.blulab.net^
-|cl.sexstories-all.com^
+||cl.sexstories-all.com^
 ||clickc4n.pornharlot.com^
 ||clickc4n.pornharlot.net^
 ||clk.slutcam.org^
@@ -5094,7 +5076,7 @@
 ||adz.mobi^
 ||adzerk.net^
 ||adzmobi.com^
-|begun.ru^
+||begun.ru^
 ||flygo.ru^
 ||inmobi.com^
 ||inmobi.net^
@@ -5129,7 +5111,7 @@
 ||targetspot.com^
 ||thetrafficstat.net^
 ||tizerclik.com^
-|cenoobi.run^
+||cenoobi.run^
 ||adtec.ru^
 ||x-app639-cc.tod99shi.com^
 ||timing-js-menu.xyz^
@@ -5184,7 +5166,7 @@
 ||burningpushing.info^
 ||clicktroute.com^
 ||riamiavid.com^
-|top-js-metrics.top.my.ua^$third-party
+||top-js-metrics.top.my.ua^$third-party
 ||cdn.umh.ua^$third-party
 ||go.xl.ua^$all
 ||a.ava.com.ua^
@@ -5497,7 +5479,8 @@
 ||remontnik.ru^
 
 ! Blocking  mobile tracking
-||graph.facebook.com^$app=cl.android|com.shorts.wave.drama|com.drama.happy.look|com.enjoy.fancynovel.better|com.novel.eromance.ugs|com.novel.estory.free.reader.dreame.gp.us|com.fatix.fatixpro|com.coupang.mobile.eats
+
+||aemetrics.aliexpress.ru^
 ||*cdn-settings.appsflyersdk.com^
 ||*launches.appsflyersdk.com^
 ||*conversions.appsflyersdk.com^
@@ -5512,7 +5495,7 @@
 ||banner.appsflyer.com^
 ||cdnappicons.appsflyer.com^
 ||dls2s.appsflyer.com^
-dlsdk.appsflyer.com^
+||dlsdk.appsflyer.com^
 ||events.appsflyer.com^
 ||fvalid.appsflyer.com^
 ||gcd-s2s.appsflyer.com^
@@ -5534,7 +5517,6 @@ dlsdk.appsflyer.com^
 ||trackchecker.ru/stat/
 ||hz-telemetry.adobe.io^
 ||smartcard.apps.coloros.com^
-||adashx4id.ut.taobao.com^
 ||analytics.us.tiktok.com^
 ||asanalytics.booking.com^
 ||counters.booking.com^
@@ -5544,8 +5526,6 @@ dlsdk.appsflyer.com^
 ||sapphire.api.microsoftapp.net^$app=com.microsoft.bing
 ||browser.events.data.microsoft.com^$app=com.microsoft.bing
 ||mobile.events.data.microsoft.com^$app=com.microsoft.bing
-|adashx.ut.alibaba.com^
-||h-adashx.ut.alibaba.com^
 ||tnc*.tiktokv.us^
 ||aws.userlogsanalytics.com^
 ||tracking.ws.eurosport.com^
@@ -5581,7 +5561,7 @@ dlsdk.appsflyer.com^
 ||report*.appmetrica.webvisor.com^
 ||analytics.liftoff.io^
 ||analytics.mobile.yandex.net^
-|m.vk.com/counters.php
+||m.vk.com/counters.php
 ||metrics.adflake.com^
 ||metrics.sdkbox.com^
 ||mixpanel.com/track
@@ -5644,7 +5624,6 @@ dlsdk.appsflyer.com^
 ||stat.pl^$third-party
 ||trafficscanner.pl^$third-party
 ||way2traffic.com^$third-party
-|109.169.66.161^$third-party,domain=~adult-site.ip
 ||1dmp.io^$third-party
 ||24log.ru^$third-party
 ||24smi.info^$third-party
@@ -5951,7 +5930,7 @@ dlsdk.appsflyer.com^
 ||ads.211.ru^
 ||ads.dfiles.ru^
 ||adshow.sc2tv.ru^
-||an.yandex.||an.yandex.ru^
+||an.yandex.ru^
 ||b.1istochnik.ru^
 ||b.povarenok.ru^
 ||b13.penzainform.ru^
@@ -6088,6 +6067,7 @@ dlsdk.appsflyer.com^
 ||*1win*^
 ||xbet.com^
 ||*xbet*^
+
 ! youtube adblock
 ||cache1.c.youtube.com^
 ||lscache1.c.youtube.com^
