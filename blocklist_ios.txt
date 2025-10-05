@@ -1,8 +1,8 @@
 ![Adblock Plus ]
-! Name: Custom Filter
+! Title:  Blocklist Custom
+! Homepage:https://github.com/igmand/adblock-list
 ! Description: Filter of malicious web resources (phishing, ads, malware, trackers) targeting ios
 !! Last updated: 2025-04-08
-
 
 ||ads.mopub.com^
 ||crashlytics.com^
