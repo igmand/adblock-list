@@ -6072,9 +6072,10 @@
 ||cache1.c.youtube.com^
 ||lscache1.c.youtube.com^
 ||redirector.c.youtube.com^
+||redirector.googlevideo.com^
 ||restrict.youtube.com^
-||ru.youtube.com^
 ||ads.youtube.com^
+||yt3.ggpht.com^
 ||analytics.youtube.com^
 ||hn9e.googlevideo.com^
 ||ai.ytimg.com^
