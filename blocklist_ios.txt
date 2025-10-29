@@ -5227,11 +5227,8 @@
 ||videosmile.ru^
 ||startsmile.ru^
 ||spbtvonline.ru^
-||ecolipetsk.ru^
 ||yvid.ru^
-||mamba.ru^
 ||gorodperm.ru^
-||vladimir-city.ru^
 ||so-ups.ru^
 ||bki-okb.ru^
 ||printn1.ru^
@@ -5242,14 +5239,10 @@
 ||alfazdrav.ru^
 ||forum-windows.net^
 ||stentex.ru^
-||rosbank.ru^
-||hyundai-electronics.com.ru^
-||antiplagiat.ru^
 ||alter-science.info^
 ||viziya.info^
 ||calltouch.ru^
 ||umschool.net^
-||dzen.ru^
 ||blsspainrussia.ru^
 ||rgs.ru^
 ||keysight-technologies.ru^
@@ -5266,33 +5259,21 @@
 ||novayagazeta.eu^
 ||etm.ru^
 ||maxi-retail.ru^
-||citilink.ru^
 ||livetex.ru^
 ||hoff.ru^
-||detmir.ru^
-||blablacar.ru^
 ||ratengoods.com^
 ||rocketbank.ru^
-||press.sber.ru^
-||culture.ru^
 ||alfadirect.ru^
 ||vsemayki.ru^
-||2gis.ru^
-||2gis.uz^
 ||bankprav.ru^
 ||oreluniver.ru^
-||gastronom.ru^
 ||web-c.ru^
 ||bancaintesa.ru^
-||holodilnik.ru^
-||cenyvaptekah.ru^
 ||myfilology.ru^
 ||domrfbank.ru^
 ||podrozerowerowe.info^
 ||sirius-aero.ru^
 ||wegym.ru^
-||autopoisk24.net^
-||shate-m.kz^
 ||finuslugi.ru^
 ||makc.ru^
 ||likeni.ru^
@@ -5301,8 +5282,6 @@
 ||fialkaspb.ru^
 ||blackwot.ru^
 ||bitrix24.ru^
-||tvguru.ru^
-||afisha.timepad.ru^
 ||chance.ru^
 ||cardsmobile.ru^
 ||web-axioma.ru^
@@ -5315,7 +5294,6 @@
 ||sponsr.ru^
 ||korusconsulting.ru^
 ||rusnano.com^
-||gostest.com^
 ||afishainspring.ru^
 ||lays.ru^
 ||fnkc-fmba.ru^
@@ -5323,43 +5301,33 @@
 ||job.mts.ru^
 ||syrovarnya.com^
 ||bml.ru^
-||atol.ru^
 ||myapples.ru^
 ||peterburg2.ru^
 ||restate.ru^
-||support.mts.ru^
 ||60cek.org^
 ||kaida-fish.ru^
 ||vivt.ru^
 ||iksmedia.ru^
 ||mathedu.ru^
-||joom.ru^
 ||ivd.ru^
 ||lisa.ru^
 ||life-webmaster.ru^
 ||love.mail.ru^
-||bbcrussian.com^
-||rutube.ru^
-||7d.ru^
 ||bisexual.ru^
 ||datingspace.ru^
 ||idating.ru^
-||love-tomsk.ru^
 ||love.am^
 ||lovegio.ru^
 ||lubovmorkov.net^
 ||missingheart.ru^
 ||znakomstvagood.ru^
 ||znakomstve.ru^
-||wildberries.ru^
 ||servermall.ru^
 ||chodb.ru^
 ||mironline.ru^
 ||multibonus.ru^
-||skoda-avto.ru^
 ||kwork.ru^
 ||stgau.ru^
-||friday.ru^
 ||wwf.ru^
 ||bbr.ru^
 ||icenter-store.ru^
@@ -5370,7 +5338,6 @@
 ||artfolio.bz^
 ||autocandy.ru^
 ||b-k.su^
-||bibi-car.ru^
 ||centrmama.ru^
 ||dskcompany.ru^
 ||kmew-fasad.ru^
@@ -5383,7 +5350,6 @@
 ||psy5.ru^
 ||retailbet.com^
 ||skin-health.ru^
-||stroy-interer.ru^
 ||xn--80aaoinfqo1fb8a.xn--p1ai^
 ||xn--80aap0ajpfdfz.xn--p1ai^
 ||xn--80apbahcjkbhv5aaif8e.xn--p1ai^
@@ -5404,8 +5370,6 @@
 ||eldorado.ru^
 ||bubble.ru^
 ||onlinepbx.ru^
-||lamoda.ua^
-||russia-tv.online^
 ||q-shopp.ru^
 ||kamkabel.ru^
 ||pegast.ru^
@@ -5414,7 +5378,6 @@
 ||izpn.ru^
 ||netlab.ru^
 ||newhollandsp.ru^
-||henderson.ru^
 ||duerr-ndt.ru^
 ||3332222.ru^
 ||lovit.ru^
@@ -5422,22 +5385,15 @@
 ||hypegamenews.ru^
 ||toldot.ru^
 ||moiglaza.ru^
-||aviasales.kg^
-||aviasales.kz^
-||aviasales.ua^
-||aviasales.uz^
 ||tacsafon.ru^
 ||sbis.ru^
-||zvuk.com^
 ||libmogilev.by^
 ||netology.ru^
 ||astralinux.ru^
-||spb-guide.ru^
 ||datasystem.ru^
 ||nergb.ru^
 ||forumdaily.com^
 ||ingrad.ru^
-||lada.ru^
 ||66.ru^
 ||gorodvo.ru^
 ||cinemamedley.ru^
@@ -5449,7 +5405,6 @@
 ||test-help.com^
 ||dvige.ru^
 ||pfr.gov.ru^
-||ticketstour.ru^
 ||sanremo-pizza.com^
 ||bimedis.ru^
 ||msu.ru^
@@ -5462,18 +5417,13 @@
 ||connectgas.ru^
 ||4game.com^
 ||sberindex.ru^
-||cian.ru^
-||detmir.ru^
 ||sdamgia.ru^
 ||fastvps.ru^
 ||authedu.mosreg.ru^
 ||myschool.mos.ru^
 ||uchebnik.mos.ru^
-||stoloto.ru^
-||aliexpress.ru^
 ||russianfield.com^
 ||knmoloko.ru^
-||7dach.ru^
 ||chaynikam.info^
 ||postnauka.ru^
 ||remontnik.ru^
@@ -5816,7 +5766,6 @@
 ||risale.ru^
 ||riverlead.ru^
 ||rmbn.ru^
-||rollad.ru^
 ||rorer.ru^
 ||rot.rusoul.ru^
 ||rot.spotsniper.ru^
@@ -5895,7 +5844,6 @@
 ||vmkxcsss.ru^
 ||vogozara.ru^
 ||voob.ru^
-||voronezh136.ru^
 ||vtdoska.ru^
 ||sharemefiles.ru^
 ||oba.rus-km.ru^
@@ -5930,7 +5878,6 @@
 ||ads.211.ru^
 ||ads.dfiles.ru^
 ||adshow.sc2tv.ru^
-||an.yandex.ru^
 ||b.1istochnik.ru^
 ||b.povarenok.ru^
 ||b13.penzainform.ru^
@@ -8368,35 +8315,13 @@ ya.ru,yandex.*#$?#div[class^="ImagesViewer-"][style^="height:"] { remove: true; 
 ! Yandex.Music
 music.yandex.*##.notify > div.deco-tooltip_notify.notify_shown
 !
-! Yandex.Pogoda
-[$path=/pogoda|hava/]yandex.*#%#//scriptlet('abort-on-property-write', 'ctxScript')
-[$path=/pogoda]dzen.ru###money-ecom
-[$path=/pogoda]dzen.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderData')
-[$path=/pogoda]dzen.ru##.adv-ecom
-[$path=/pogoda|hava/]yandex.*#%#//scriptlet('prevent-eval-if', 'Id":"R-I')
-[$path=/pogoda|hava/]yandex.*#%#//scriptlet('json-prune', 'rtb')
-! TODO: remove after releasing new AdGuard 2.0 for Safari
-! Breaks Yandex Mail in Safari due to a bug
-!+ NOT_PLATFORM(ext_safari)
-[$path=/pogoda]yandex.*#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderDirect')
-!
 ! Yandex.Video
 [$path=/video]ya.ru,yandex.*#%#//scriptlet('json-prune', 'rtb seatbid')
 [$path=/video]ya.ru,yandex.*#%#//scriptlet('set-constant', 'Object.prototype.renderDirect', 'throwFunc')
 !
 ! Yandex.Afisha
 afisha.yandex.*#%#//scriptlet('prevent-eval-if', 'bidReqIdStr')
-!
-! Yandex.Disk
-docviewer.yandex.*#%#//scriptlet('abort-on-property-read', 'Object.prototype.Rtb')
-!
-! Yandex.Mail
-mail.yandex.*##div[class^="PageLayout-m__main--"][id="js-layout-inner"] + div[style="--bg-color: 255, 255, 255; overscroll-behavior: none;"]
-mail.yandex.*###js-mail-layout-content-header > div.message-list-banner-portal + div:not([class*="styles__"])
-mail.yandex.*##div[class^="PageLayout"] > div[class*=" "][style]:has(> div > div > a[class*="DisableAdsButton"])
-mail.yandex.*##div[class^="RightColumn-m__root--"]
-mail.yandex.*##.message-list-banner-portal + div[class][id]:has(> div:empty)
-mail.yandex.*#%#//scriptlet('json-prune', 'seatbid rtb')
+
 !
 ! Yandex.Search
 ! Main page under the search bar
@@ -8419,24 +8344,8 @@ turbopages.org#%#//scriptlet('json-prune', '*.blockId')
 [$path=/games]yandex.*#%#//scriptlet('json-prune', 'advEnabledByPartner')
 [$path=/games]yandex.*#%#//scriptlet('json-prune', 'direct rtb')
 !
-! Yandex.Sport
-[$path=/sport]yandex.*#%#//scriptlet('json-prune', 'rtb seatbid')
-!
 ! Yandex.Q
 [$path=/q]yandex.*#%#//scriptlet('json-prune', 'direct rtb')
-!
-! Kinopoisk
-www.kinopoisk.ru#%#//scriptlet('set-constant', 'Object.prototype.renderToNode', 'undefined')
-www.kinopoisk.ru##div[class^="styles_fixed_"][class*="styles_"][data-tid]
-www.kinopoisk.ru##div[class^="toaster-container"]
-hd.kinopoisk.ru##.ReactModalPortal > div[class*=" styles_fixed__"]:has(> div > a[href$="/yandex-in-adblock.html"])
-kinopoisk.ru##div[class*="_adBlockWarningRoot__"]
-www.kinopoisk.ru##.media-post-page > div[class*=" "][data-tid]:not([class*="media"])
-www.kinopoisk.ru#?#div[class*="_"]:has(> div[aria-hidden][data-tid] > div[id][class][data-tid] + script:contains(/JSON\.parse\(\'\{\"containerId\"/))
-!
-! auto.ru
-auto.ru#%#//scriptlet('json-prune', 'ads')
-auto.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.RenderMarks')
 !
 ! shedevrum.ai
 shedevrum.ai#%#//scriptlet('set-constant', 'Object.prototype.isStickyAd', 'undefined')
@@ -8456,14 +8365,6 @@ comedy-radio.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.render
 ! relax-fm.ru
 relax-fm.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderDirect')
 !#endif
-! otzovik
-otzovik.com##td[colspan] > div[style^="background-color: #ffd2ca;"]
-otzovik.com#%#//scriptlet('prevent-eval-if', 'xored')
-otzovik.com#%#//scriptlet("abort-on-property-read", "Object.prototype.RtbLoadDone")
-otzovik.com#%#//scriptlet("abort-on-property-read", "Object.prototype.RtbBlockRenderStart")
-! irecommend.ru
-irecommend.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderDirect')
-!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142800
 !+ NOT_PLATFORM(windows, mac, android)
 rg.ru#%#//scriptlet('set-constant', 'Object.prototype.renderTo', 'undefined')
@@ -8472,23 +8373,11 @@ rg.ru#%#//scriptlet('set-constant', 'Object.prototype.renderTo', 'undefined')
 sm.news#?#div:not([class="col-home"]):has(> div[id^="bar"])
 sm.news##div[id^="bar"]
 !
-! 24smi.org
-24smi.org#%#//scriptlet('set-constant', 'Object.prototype.blockId', 'undefined')
 !
 ! sm.news,amedia.online, sdamgia.ru
 sm.news,amedia.online,sdamgia.ru#%#//scriptlet("abort-on-property-read", "Object.prototype.RenderMarks")
 sdamgia.ru##div[role="main"] div[style*="color:red;"]
 sdamgia.ru##.PageLayout-Main > div[class*="_fixedHeight"]
-!
-! liveinternet.ru
-liveinternet.ru#?#.clear ~ div[class]:has(> div.float100 > div[align="center"] > div[id])
-liveinternet.ru#?#body > div[class]:has(> div.myblockbottom__close)
-liveinternet.ru#?#.leftcolumn > div[class]:has(> form[action="https://www.technohelp.ru/"])
-liveinternet.ru#?#script:not([src]) + div[id]:has(> div[style*="width: 100%;"])
-liveinternet.ru##.leftcolumn > script[type] + div[style="clear:both;"]
-liveinternet.ru##.rightcolumn > div.news
-liveinternet.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.storage')
-liveinternet.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.DataLoaded')
 !
 ! drive2.ru
 ! gismeteo domains: gismeteo.ru,gismeteo.by,gismeteo.pl,gismeteo.lt,gismeteo.md,gismeteo.kz
@@ -8513,41 +8402,7 @@ e.mail.ru,octavius.mail.ru#%#//scriptlet('remove-class', 'scrollable_top-line-ad
 e.mail.ru,octavius.mail.ru#%#//scriptlet('remove-class', 'letter-list_top-line-adv-2pane|letter-list_top-line-adv-2pane_pony-mode|letter-list_topline-touch-adv|letter-list_top-line-adv-2pane_high-block', '.letter-list')
 mail.ru#?#body > div > style + div:has(> div > div.description:contains(/До[баба]вьт[ее] Mail в исключения/))
 news.mail.ru#?#body > div:has(> div[id] > div > div.title:contains(блокировщика рекламы))
-! dzen.ru
 ! Main page
-dzen.ru#%#//scriptlet('set-constant', 'Object.prototype.initAdvManager', 'undefined')
-dzen.ru##div[class^="dzen-layout--desktop-page-layout__root-"] > div > div[data-appid^="dzen-desktop@"] div + div > div[style*="padding-top:"][style*="position:"]
-dzen.ru##div[aria-label="Лента Дзена"] article:has(> div[data-ad-type="direct"])
-! Ads in news
-dzen.ru##div[class*="-desktop-"][class*="-placeholder__"]
-dzen.ru###top-banner
-dzen.ru##div[class^="content--article-item__rightAdWrapper"]
-dzen.ru##div[data-testid="bottom-ad"]
-dzen.ru##div[class*="__advertItem "]
-dzen.ru##.news-page-layout__content > div.news-page-layout__rubricator + div[id][class]:has(div[class*="-redesign-placeholder__"])
-dzen.ru#$?##LayoutTopMicroRoot div[style^="padding-top:"][style*="position: relative; height: 0;"] { remove: true; }
-! https://m.dzen.ru/articles
-m.dzen.ru##div[class^="desktop2--redesign-feed__"] div:has(> article[class*="--card-rtb__"])
-! Ads in the feed
-dzen.ru##div[class^="dzen-desktop--"][class*="__topContent-"] > div[class^="dzen-desktop--top-sidebar-desktop-"] > article[style]
-dzen.ru##div[class^="dzen-desktop--feed__itemWrap-"] div[class^="dzen-desktop--"][class*="__cardWrapper-"] ~ article:has([class*="__adBox-"])
-m.dzen.ru##div[aria-label="Лента Дзена"] div + article[class*="--card-rtb__"]
-! Sportsdzen
-sportsdzen.ru##div[class*="sports-button-ad"]
-sportsdzen.ru##div[class*="sport-match-rectangle-card__bookmakerOdds"]
-!
-! Interview popup
-dzen.ru##div[class^="float-interview__float-"]
-! Articles
-[$path=/a/]dzen.ru##div[class*="_position_articleRight "][style*="max-height:"]
-[$path=/a/]dzen.ru##div[class^="article__"][class$="-wrapper"] > div[class*="_position_"][class$="_color_white"]
-[$path=/a/]dzen.ru#?#.zen-page div.feed__item article:matches-css(align-items: center)
-!
-! Video
-[$path=/video]dzen.ru#%#//scriptlet('set-constant', 'Object.prototype.rtb', 'undefined')
-[$path=/video]dzen.ru##div[class*="item-info__videoViewerItemInfo-"] + div:not([class])
-[$path=/video]dzen.ru##div[class^="video-view-sidebar"] div[class]:matches-attr("aria-label"=/[Рр]екламная карта/)
-dzen.ru##.viewer-layout__sidebar div[aria-label*="екламная карта"]
 !
 ! Pogoda
 [$path=/pogoda]dzen.ru##div[data-bem*="segment-details"] > article.card ~ div[class]
