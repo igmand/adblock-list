@@ -126,6 +126,7 @@
 ||mask-api.fe.apple-dns.net^
 ||metrics.apple.com^
 ||yandex.ru/metrika^
+||avatars.mds.yandex.net^
 ||yandex.ru/ads^
 ||yandex.ru/context^
 ||yandex.ru/direct^
