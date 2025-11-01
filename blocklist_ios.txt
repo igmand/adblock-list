@@ -90,6 +90,12 @@
 ||report.appmetrica.yandex.net^
 ||notifications-pa.googleapis.com^
 ||analytics.adjust.io^
+||sp.linkssp.ru^
+||image.sendsay.ru^
+||ssp.hybrid.ai^
+||img.youtube.com^
+||.giex.ru^
+||play.google.com^
 
 ||apple-dns.net^
 ||metrics.icloud.com^
