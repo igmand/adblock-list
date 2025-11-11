@@ -55,7 +55,6 @@
 ||sentry.io^
 ||cdn.cookielaw.org^
 ||onetrust.com^
-||googlehosted.googleusercontent.com^
 ||suggestqueries.google.com^
 ||ogads-pa.clients6.google.com^
 ||apple-dns.net^
