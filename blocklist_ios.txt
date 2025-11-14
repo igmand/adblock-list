@@ -99,6 +99,8 @@
 ||counter.yadro.ru^
 ||uniproxy.alice.yandex.net^
 ||app.tanker.yandex.net^
+||api.browser.yandex.ru^
+||favicon.yandex.net^
 
 ||apple-dns.net^
 ||metrics.icloud.com^
