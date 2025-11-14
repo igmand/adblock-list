@@ -95,6 +95,10 @@
 ||img.youtube.com^
 ||.giex.ru^
 ||play.google.com^
+||www3.l.google.com^
+||counter.yadro.ru^
+||uniproxy.alice.yandex.net^
+||app.tanker.yandex.net^
 
 ||apple-dns.net^
 ||metrics.icloud.com^
