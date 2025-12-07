@@ -101,6 +101,9 @@
 ||app.tanker.yandex.net^
 ||api.browser.yandex.ru^
 ||favicon.yandex.net^
+||skan.singular.net^
+||app.revenuecat.com^
+||suggest.perplexity.ai^
 
 ||apple-dns.net^
 ||metrics.icloud.com^
