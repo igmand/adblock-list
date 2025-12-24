@@ -104,6 +104,9 @@
 ||skan.singular.net^
 ||app.revenuecat.com^
 ||suggest.perplexity.ai^
+||favicon.yandex.net^
+||guzzoni-apple-com^
+||guzzoni.apple.com^
 
 ||apple-dns.net^
 ||metrics.icloud.com^
