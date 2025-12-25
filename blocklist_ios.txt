@@ -106,8 +106,6 @@
 ||suggest.perplexity.ai^
 ||guzzoni-apple-com^
 ||guzzoni.apple.com^
-||avatars.mds.yandex.net^
-||favicon.yandex.net^
 ||yandex-pogoda.static-storage.net^
 
 ||apple-dns.net^
