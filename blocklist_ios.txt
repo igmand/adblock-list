@@ -107,6 +107,8 @@
 ||favicon.yandex.net^
 ||guzzoni-apple-com^
 ||guzzoni.apple.com^
+||an.yandex.ru^
+
 
 ||apple-dns.net^
 ||metrics.icloud.com^
