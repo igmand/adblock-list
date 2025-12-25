@@ -104,12 +104,11 @@
 ||skan.singular.net^
 ||app.revenuecat.com^
 ||suggest.perplexity.ai^
-||favicon.yandex.net^
 ||guzzoni-apple-com^
 ||guzzoni.apple.com^
 ||an.yandex.ru^
 ||avatars.mds.yandex.net^
-||yandex.by/an/count^
+
 
 
 ||apple-dns.net^
