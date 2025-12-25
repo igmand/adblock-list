@@ -106,7 +106,6 @@
 ||suggest.perplexity.ai^
 ||guzzoni-apple-com^
 ||guzzoni.apple.com^
-||an.yandex.ru^
 ||avatars.mds.yandex.net^
 
 
