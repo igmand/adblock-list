@@ -107,7 +107,7 @@
 ||guzzoni-apple-com^
 ||guzzoni.apple.com^
 ||avatars.mds.yandex.net^
-
+||favicon.yandex.net^
 
 
 ||apple-dns.net^
