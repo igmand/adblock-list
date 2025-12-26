@@ -107,6 +107,16 @@
 ||guzzoni-apple-com^
 ||guzzoni.apple.com^
 ||yandex-pogoda.static-storage.net^
+||advideo.dsp.yandexadexchange.net^
+||rtb-eu-warsaw.intent.ai^
+||px.arcspire.io^
+||cmr.bidderstack.com^
+||nr.bidderstack.com^
+||sync.gonet-ads.com^
+||s-cs.rmp.rakuten.com^
+||t.rtbwave.com^
+||rtb.dynotech.io^
+||frontend.vh.yandex.ru^
 
 ||apple-dns.net^
 ||metrics.icloud.com^
