@@ -117,6 +117,8 @@
 ||t.rtbwave.com^
 ||rtb.dynotech.io^
 ||frontend.vh.yandex.ru^
+||test-gateway.instagram.com^
+
 
 ||apple-dns.net^
 ||metrics.icloud.com^
