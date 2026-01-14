@@ -118,6 +118,23 @@
 ||rtb.dynotech.io^
 ||frontend.vh.yandex.ru^
 ||test-gateway.instagram.com^
+||api.rivox.io^
+||cdn.carrotquest.app^
+||artemsedin74.github.io^
+||jivosite.com^
+||shopmanager.by^
+||a.adspector.io^
+||bs.serving-sys.ru^
+||dpm.demdex.net^
+||static.marquiz.ru^
+||match.targetrtb.com^
+||dsp.mpartner.digital^
+||cdn.ime.by^
+||retn.net^
+||googlehosted.l.googleusercontent.com^
+||sync.gonet-ads.com^
+||skyapi.live.net^
+
 
 
 ||apple-dns.net^
