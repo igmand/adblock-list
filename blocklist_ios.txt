@@ -135,8 +135,6 @@
 ||sync.gonet-ads.com^
 ||skyapi.live.net^
 
-
-
 ||apple-dns.net^
 ||metrics.icloud.com^
 ||neutroncode.com^
