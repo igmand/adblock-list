@@ -57,7 +57,6 @@
 ||onetrust.com^
 ||suggestqueries.google.com^
 ||ogads-pa.clients6.google.com^
-||apple-dns.net^
 ||edge-mqtt.facebook.com ^
 ||gateway.facebook.com^
 ||_aaplcache._tcp.Google.pl^
@@ -134,7 +133,6 @@
 ||sync.gonet-ads.com^
 ||skyapi.live.net^
 
-||apple-dns.net^
 ||metrics.icloud.com^
 ||neutroncode.com^
 ||staticnetcontent.com^
