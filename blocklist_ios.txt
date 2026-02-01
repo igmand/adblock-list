@@ -132,6 +132,8 @@
 ||googlehosted.l.googleusercontent.com^
 ||sync.gonet-ads.com^
 ||skyapi.live.net^
+||telegram.org/spam^
+||telegram.org/ads^
 
 ||metrics.icloud.com^
 ||neutroncode.com^
