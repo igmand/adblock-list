@@ -48,7 +48,6 @@
 ||staticnetcontent.com^
 ||copilot.microsoft.com^
 ||lencr.org^
-||ggpht.com^
 ||chimpstatic.com^
 ||wp.com^
 ||adjust.io^
