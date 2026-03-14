@@ -209,6 +209,15 @@
 ||eye.targetads.io^
 ||sync.gonet-ads.com^
 ||static.xx.fbcdn.net^
+||static.voidboost.com^
+||samarium.femeretes.org^
+||chatbro.com^
+||cvt-s2.agl008.shop^
+||cvt-s1.agl010.pro^
+||srv224.com^
+||pimg.vb17123filippaaniketos.pw^
+||aj1907.online^
+||cdn77.aj2178.online^
 ||a.wb.ru/sdk/sdk.js$script
 ||mc.yandex.by/metrika/tag.js$script
 ||yandex.by/ads/system/context.js$script
