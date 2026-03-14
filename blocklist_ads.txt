@@ -221,6 +221,9 @@
 ||pimg.vb17123filippaaniketos.pw^
 ||aj1907.online^
 ||cdn77.aj2178.online^
+||cdn.digitalcaramel.com^
+||cdn.jsdelivr.net^
+||ext-strm-mnskbycom01.strm.yandex.net^
 ||a.wb.ru/sdk/sdk.js$script
 ||mc.yandex.by/metrika/tag.js$script
 ||yandex.by/ads/system/context.js$script
