@@ -212,6 +212,7 @@
 ||static.voidboost.com^
 ||samarium.femeretes.org^
 ||chatbro.com^
+||get2.fun^
 ||ad2the.net^
 ||franeski.net^
 ||cvt-s2.agl008.shop^
