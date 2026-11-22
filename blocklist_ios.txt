@@ -1,14 +1,14 @@
-![Adblock Plus ]
-! Title:  Blocklist Custom
+![Adblock iOS ]
+! Title:  Blocklist iOS
 ! Homepage:https://github.com/igmand/adblock-list
 ! Description: Filter of malicious web resources (phishing, ads, malware, trackers) targeting ios
-!! Last updated: 2025-04-08
+!! Last updated: 2026-11-22
 
-||ads.mopub.com^
-||crashlytics.com^
-||doubleclick.net
-||an.yandex.ru^
-||ads.adfox.ru^
+||ads.mopub.com^$important
+||crashlytics.com^$important
+||doubleclick.net^$important
+||an.yandex.ru^$important
+||ads.adfox.ru^$important
 ||adservice.google.com^
 ||adsdk.yandex.ru^
 ||ad.mail.ru^
@@ -17,18 +17,13 @@
 ||applvn.com^
 ||adsystem.com^
 ||appsflyer.com^
-||adblock-youtube-ads^
 ||app-measurement.com^
 ||api.snapkit.com^
-||api.coinmarketcap.com^
-||adjust.com^
+||adjust.com^$important
 ||api.mycdn.me^
 ||app-analytics-services.com^
 ||api-adservices.apple.com^
 ||api.onesignal.com^
-||googleadservices.com^
-||googlesyndication.com^
-||googletagmanager.com^
 ||inmobi.com^
 ||data.flurry.com^
 ||pangle.io^
@@ -37,33 +32,48 @@
 ||sgsnssdk.com^
 ||moloco.com^
 ||mobile-gtalk.l.google.com^
-||analytics.google.com^
+||analytics.google.com^$important
 ||conversions.appsflyer.com^
 ||ya-keyboard.s3.yandex.net^
 ||metrics.icloud.com^
+||telemetry.tradingview.com^
 ||rum.u-team.by^
 ||mindbox.ru^
 ||studilka.ru^
 ||ronghub.com^
-||staticnetcontent.com^
+||staticnetcontent.com^$important
 ||copilot.microsoft.com^
 ||lencr.org^
 ||chimpstatic.com^
 ||wp.com^
 ||adjust.io^
-||sentry.io^
+||static1.smi2.net^
+||cdn-advert.smi2.net^
+||static.rambler.ru^
+||adstat.yandex.ru^
+||csp.withgoogle.com^
+||fundingchoicesmessages.google.com^
 ||cdn.cookielaw.org^
 ||onetrust.com^
-||suggestqueries.google.com^
-||ogads-pa.clients6.google.com^
 ||edge-mqtt.facebook.com ^
 ||gateway.facebook.com^
 ||_aaplcache._tcp.Google.pl^
 ||cdn.ampproject.og^
 ||taboola.com^
 ||graph.instagram.com^
-||yandex.by/an/count/^
-||suggestqueries.l.google.com^
+||star.c10r.facebook.com^
+||graph-fallback.facebook.com^
+||meta-ai-realtime.facebook.com^
+||wearable-ai-realtime.facebook.com^
+||plus-bc.cdn.viber.com^
+||abff.viber.com^
+||business-search-api-cdn.viber.com^
+||data-events.cdn.viber.com^
+||pg.cdn.viber.com^
+||smb-api.viber.com^
+||clients-content.viber.co^
+||yandex.by/an/count/^$important
+||yandex.by/an/count/$app=~com.yandex.browser
 ||metrika.js^
 ||egress.yandex.net^
 ||in-addr.arpa^
@@ -75,33 +85,27 @@
 ||api.appcenter.ms^
 ||adsmoloco.com^
 ||aemetrics.aliexpress.ru^
+||acs.m.taobao.com^
+||apmplus.volces.com^
 ||tracker-api.vk-analytics.ru^
-||clients.l.google.com^
-||mask.icloud.com^
-||mask-h2.icloud.com^
 ||mobile.events.data.microsoft.com^
 ||oneclient.sfx.ms^
 ||gs-loc-apple.com^
 ||meta-ai-realtime.facebook.com^
 ||wearable-ai-realtime.facebook.com^
 ||report.appmetrica.yandex.net^
-||notifications-pa.googleapis.com^
 ||analytics.adjust.io^
 ||sp.linkssp.ru^
 ||image.sendsay.ru^
 ||ssp.hybrid.ai^
-||img.youtube.com^
-||.giex.ru^
-||play.google.com^
-||www3.l.google.com^
-||counter.yadro.ru^
+||giex.ru^
+||api-analytics.edostavka.by^
 ||uniproxy.alice.yandex.net^
 ||app.tanker.yandex.net^
 ||api.browser.yandex.ru^
 ||favicon.yandex.net^
 ||skan.singular.net^
 ||app.revenuecat.com^
-||suggest.perplexity.ai^
 ||guzzoni-apple-com^
 ||guzzoni.apple.com^
 ||yandex-pogoda.static-storage.net^
@@ -121,7 +125,6 @@
 ||artemsedin74.github.io^
 ||jivosite.com^
 ||shopmanager.by^
-||a.adspector.io^
 ||bs.serving-sys.ru^
 ||dpm.demdex.net^
 ||static.marquiz.ru^
@@ -132,9 +135,371 @@
 ||skyapi.live.net^
 ||telegram.org/spam^
 ||telegram.org/ads^
+||tracker.bitsearch.to^
+||tracker1.myporn.club^
+||tracker.tiny-vps.com^
+||tracker.tamersunion.org^
+||tracker.torrent.eu.org^
+||tracker.dler.com^
+||arms-retcode.aliyuncs.com^
+||fourier.taobao.com^
+||gator.volces.com^
+||suggest.perplexity.ai^
+||an.count.ya.ru^$important
+||yandex.ru/an/count/^$important
+|yandex.by/an/count/^$important
+||ads.adfox.yandex.ru^$important
+||awaps.yandex.net^
+||counters.ya.ru^$important
+||bs.yandex.ru^
+||yandexad.com^
+||counter.yadro.ru^$important
+||www.tns-counter.ru^$important
+||tns-counter.ru^$important
+||log32-normal-alisg.tiktokv.com^
+||top-fwz1.mail.ru^
+||citicoco.transport-ya.of.by^
+||ads.betweendigital.com^
+||cm.tns-counter.ru^$important
+||bs.serving-sys.ru^
+||dm.hybrid.ai^
+||dpm.demdex.net^
+||dmg.digitaltarget.ru^
+||kimberlite.io^
+||match.new-programmatic.com^
+||mitdmp.whiteboxdigital.ru^
+||prebid.admatic.de^
+||px.adhigh.net^
+||s.uuidksinc.net^
+||ssp.adriver.ru^
+||ssp.al-adtech.com^
+||sync.bumlam.com^
+||sync.dmp.otm-r.com^
+||tt.ttarget.ru^
+||x01.aidata.io^
+||yandex-dmp-sync.rutarget.ru^
+||yandex-sync.rutarget.ru^
+||an.mail.ru^
+||531311.ms.dzen.ru^
+||541311.ms.dzen.ru^
+||stat.radar.imgsmail.ru^
+||rs.mail.ru^
+||b2.mail.ru^
+||telemetry.dzen.ru^
+||trk.mail.ru^
+||xray.mail.ru^
+||content.adriver.ru^
+||informer.yandex.ru^
+||static.aio.media|^
+||tube.buzzoola.com^
+||static.criteo.net^
+||cdn.skcrtxr.com^
+||cp.pushwoosh.com^
+||rcmjs.rambler.ru^
+||rum.u-team.by^
+||ru.bongacash.com^
+||bngtrak.com^
+||bongacams30.com^
+||ad2the.net^
+||www.clarity.ms^
+||static.trafficjunky.com^
+||spix.agl010.pro^
+||cr-frontend.weborama-tech.ru^
+||t.adx.opera.com^
+||shopnetic.com^
+||sync.rambler.ru^
+||match.targetrtb.com^
+||eye.targetads.io^
+||sync.gonet-ads.com^
+||static.voidboost.com^
+||samarium.femeretes.org^
+||chatbro.com^
+||get2.fun^
+||franeski.net^
+||cvt-s2.agl008.shop^
+||cvt-s1.agl010.pro^
+||srv224.com^
+||pimg.vb17123filippaaniketos.pw^
+||aj1907.online^
+||cdn77.aj2178.online^
+||cdn.digitalcaramel.com^
+||cdn.jsdelivr.net^
+||wp.com^
+||games-api.appgeneration.com^
+||x.everestop.io^
+||lazybumblebee.com^
+||profile.ad-tech.ru^
+||cdn-t.b5c1d2e8c9982e3b965a27ac72ru7284cc.com^
+||cvt-s1.agl010.pro^
+||rap.skcrtxr.com ^
+||metrics.brightcove.com^
+||cp.pushwoosh.com^
+||wcm.weborama-tech.ru^
+||spix.agl008.shop^
+||suggest.perplexity.ai^
+||browser-intake-datadoghq.com^
+||cdn.rudderlabs.com^
+||rutrk.org^
+||www.betsonsport.ru^
+||deltarockme.com^
+||vak345.com^
+||static.criteo.net^
+||analytics.mediadash.ru^
+||analytics.iportal.ru^
+||tracker.gcrenwp.top^
+||tracker.dler.org^
+||tracker.torrent.eu.org^
+||tracker.bitsearch.to^
+||tracker.opentrackr.org^
+||tracker.bt4g.com^
+||tracker.yemekyedim.com^
+||trackers.mlsub.net^
+||tracker.renfei.net^
+||tracking.banki.ru^
+||dmp.sbermarketing.ru^
+||adservings.ru^
+||cdn.onesignal.com^
+||www.acint.net^
+||a.adspector.io^
+||a.adlook.tech^
+||dmg.digitaltarget.ru^
+||b.myfin.by^
+||winline.by^
+||winwin.bet^
+||beecompose.com^
+||deltarockme.com^
+||betsxwin.pro^
+||odf.app-ads-services.com^
+||sf16-static.i18n-pglstatp.com^
+||mediation.goog^
+||sb.btpextapi.com^
+||ecomtrack.io^
+||qqtime.space^
+||cdncounter.net^
+||static.cdncounter.net^
+||uacounter.com^
+||sqwas.shapelie.com^
+||ads.cdn.viber.com^
+||tel.amplreq.com^
+||ext-strm-mnskbycom01.strm.yandex.net^
+||anydesk.com^
+||teamviewer.com^
+||rustdesk.com^
+||ammyy.com^
+||aeroadmin.com^
+||remotedesktop.google.com^
+||kd6hgv-launches.appsflyersdk.com^
+||a.wb.ru/sdk/sdk.js$script
+||image.sendsay.ru/app/js/forms/forms.min.js$script
+||cdn-rtb.sape.ru/js/uids.js$script
+||yandex.by/ads/system/context.js$script
+||yandex.ru/ads/system/context.js$script
+||tube.buzzoola.com/new/build/buzzlibrary.js$script
+||tns-counter.ru/ncc/counter.js$script
+||ad.mail.ru/static/vk-adman.js$script
+||krvk.mail.ru/static/sync-loader.js$script
+||top-fwz1.mail.ru/js/code.js$script
+||abt.s3.yandex.net/expjs/latest/exp.js$script
+||mc.webvisor.org/metrika/tag_ww.js$script
+||rcmjs.rambler.ru/static/recommender.js$script
+||st.top100.ru/top100/top100.js$script
+||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js$script
+||mc.yandex.by/metrika/tag.js$script
+||mc.yandex.com/metrika/watch.js$script
+||mc.yandex.ru/metrika/watch.js$script
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script
+||content.adriver.ru/AdRiverFPS.js$script
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script
+||api.mindbox.ru/scripts/v1/tracker.js$script
+||rum.u-team.by/matomo.js$script
+||googleads.g.doubleclick.net/pagead/id*
 
+! youtube adblock
+||googlevideo.com^$dnsrewrite=REFUSED,important,app=com.google.ios.youtube
+||youtube.googleapis.com/api/stats/ads^
+||www.youtube.com/api/stats/ads^
+||www.youtube.com/ptracking^
+||youtube.com/youtubei/v1/log_event?alt=json^$xhr
+||www.youtube.com/pagead/
+||www.googleadservices.com^$important
+||googleadservices.com^$important
+||googleads.g.doubleclick.net^$important
+||googlesyndication.com^$important
+||googletagmanager.com^$important
+||www.googletagservices.com^
+||www.googleapis.com^
+||play.googleapis.com^
+||iosantiabuse-pa.googleapis.com^
+||suggestqueries.l.google.com^
+||suggestqueries.google.com^
+||adblock-youtube-ads^
+||ogads-pa.clients6.google.com^
+||clients.l.google.com^
+||play.google.com^
+||img.youtube.com^
+||notifications-pa.googleapis.com^
+||cache1.c.youtube.com^
+||lscache1.c.youtube.com^
+||redirector.c.youtube.com^
+||redirector.googlevideo.com^$important
+||restrict.youtube.com^
+||lh3.googleusercontent.com^
+||lh4.googleusercontent.com^
+||lh5.googleusercontent.com^
+||lh6.googleusercontent.com^
+||r3.sn-tn.googlevideo.com^
+||r3---sn-tn.googlevideo.com^
+||people-pa.googleapis.com^
+||ads.youtube.com^
+||yt3.ggpht.com^$important
+||analytics.youtube.com^
+||hn9e.googlevideo.com^
+||ai.ytimg.com^
+||youtubei/v1/log_event?alt=json$script
+||video-analytics.google.com^
+||www.google.by/pagead/^
+||www.google.com/pagead/^
+||partner.googleadservices.com^$important
+||ad.doubleclick.net^$important
+||pubads.g.doubleclick.net^
+||securepubads.g.doubleclick.net^
+||pagead-tpc.l.google.com^
+||pagead2.googlesyndication.com^
+||firebaselogging-pa.googleapis.com^
+||locationhistory-pa.googleapis.com^
+||video-stats.l.google.com^
+||googleads.g.doubleclick.net/pagead/id^$important
+||static.doubleclick.net^$important
+||static.doubleclick.net/instream/ad_status.js$script
+||www.googletagmanager.com/gtm.js$script
+||www.google-analytics.com/analytics.js$script
+||googletagmanager.com/gtag/js$script,redirect=googletagmanager_gtm.js$script
+||google-analytics.com/analytics.js$script,redirect=google-analytics_analytics.js$script
+||*.google-analytics.com/collect^$image,1x1,important
+||*.facebook.com/tr^$image,1x1,important
+||*.doubleclick.net/*/pixel^$image,1x1,important
+
+ !! Blocks Apple native broadband tracker
+||gateway.icloud.com^
+||iphone-ld.apple.com^
+||cl3.apple.com^
+||gs-loc.apple.com^
+||token.safebrowsing.apple^
+||acfeedbackws.icloud.com^
+||feedbackws.icloud.com^
+||apple.com/ads^
+||apple.com/attribution^
+||apple.com/as-ads^
+||apple.com/itc^
+||apple.com/metrics^
+||apple.com/ConversionMeasurement^
+||apple.com/sas^
+||apple.com/adnetwork^
+||apple.com/iAd^
+||apple.com/adv^
+||mask-api.fe.apple-dns.net^
+||metrics.apple.com^
 ||metrics.icloud.com^
+||metrics.mzstatic.com^
+||qwapi.com^
+||marketing.services.apple^
+||mask.apple-dns.net^
+||mask.icloud.com^
+||mask-h2.icloud.com^
+||mask-api.icloud.com^
+||apple-cloudkit.com^
+||apple-relay.apple.com^
+||cstat.g.aaplimg.com^
+||diagassets.g.aaplimg.com^
+||cdn-xp-ingest-ab.v.aaplimg.com^
+||iphonesubmissions.v.aaplimg.com^
+||prod-event-relay-api.v.aaplimg.com^
+||securemetrics.v.aaplimg.com^
+||securemvt.v.aaplimg.com^
+||smoot-feedback.v.aaplimg.com^
+||supportmetrics.v.aaplimg.com^
+||xp.v.aaplimg.com^
+||ab.apple.com.akadns.net^
+||cstat-lb.apple.com.akadns.net^
+||diagassets-lb.apple.com.akadns.net^
+||diagnostics.apple.com.akadns.net^
+||iadcontent-lb.apple.com.akadns.net^
+||iadsdk.apple.com.akadns.net^
+||idiagnostics.apple.com.akadns.net^
+||iphonesubmissions.apple.com.akadns.net^
+||radarsubmissions.apple.com.akadns.net^
+||iad-apple.com.akadns.net^
+||partiality.itunes-apple.com.akadns.net^
+||xp.itunes-apple.com.akadns.net^
+||xp-cdn-lb.itunes-apple.com.akadns.net^
+||searchads.lb-apple.com.akadns.net^
+||advertising.apple.com^
+||advp.apple.com^
+||api-adservices.apple.com^
+||books-analytics-events.apple.com^
+||cstat.apple.com^
+||cstat-origin.apple.com^
+||databeacon.apple.com^
+||datacollection.apple.com^
+||diagassets.apple.com^
+||diagnostics.apple.com^
+||dz1dt3wqswdezgx4j2ryem5iad.apple.com^
+||experiments.apple.com^
+||graffiti-tags.apple.com^
+||iad.apple.com^
+||iadcontent.apple.com^
+||iadmoo.apple.com^
+||iadsdk.apple.com^
+||iadworkbench.apple.com^
+||idiagnostics.apple.com^
+||idiagnostics-mdn1.apple.com^
+||internalcheck.apple.com^
+||iphonesubmissions.apple.com^
+||iphonesubmissions-old.apple.com^
+||partiality.itunes.apple.com^
+||launch.apple.com^
+||metrics.apple.com^
+||msc-dct-prod.msc.apple.com^
+||news-app-events.apple.com^
+||news-events.apple.com^
+||news-notification-events.apple.com^
+||news-sports-events.apple.com^
+||notes-analytics-events.apple.com^
+||odin-signals.apple.com^
+||performance-partners.apple.com^
+||phonesubmissions.apple.com^
+||prd-usw2-requestattribution-iad.apple.com^
+||proxy-skadnetwork.apple.com^
+||radarsubmissions.apple.com^
+||searchads.apple.com^
+||securemetrics.apple.com^
+||securemvt.apple.com^
+||fbs.smoot.apple.com^
+||stocks-analytics-events.apple.com^
+||supportmetrics.apple.com^
+||weather-analytics-events.apple.com^
+||xp.apple.com^
+||xp-cdn.apple.com^
+||feedbackws.fe.apple-dns.cn^
+||feedbackws.fe2.apple-dns.net^
+||me.apple-dns.net^
+||applemediaservices.com^
+||cstat.cdn-apple.com^
+||securemetrics.apple.com.cn^
+||feedbackws.icloud.com.cn^
+||cdn-xp-ingest.edge.apple^
+||experiments.apple.com.edgekey.net^
+||iadsdk.apple.com.edgekey.net^
+||partiality.itunes.apple.com.edgekey.net^
+||xp.apple.com.edgekey.net^
+||cstat.apple.com.edgesuite.net^
+||searchads.apple.com.edgesuite.net^
+||mask-canary.icloud.com^
 ||neutroncode.com^
+||ecn.dev.virtualearth.net^
+||amp-api-edge.apps.apple.com^
+||token.safebrowsing.apple^
+!
 ||staticnetcontent.com^
 ||copilot.microsoft.com^
 ||google.com/adsense^
@@ -154,20 +519,27 @@
 ||google.com/ads/user-lists^
 ||youtubei/v1/player/ad_break^
 ||youtubei/v1/log_event?alt=json^
-||apple.com/ads^
-||apple.com/attribution^
-||apple.com/as-ads^
-||apple.com/itc^
-||apple.com/metrics^
-||apple.com/ConversionMeasurement^
-||apple.com/sas^
-||apple.com/adnetwork^
-||apple.com/iAd^
-||apple.com/adv^
-||mask-api.fe.apple-dns.net^
-||metrics.apple.com^
+
+
+! Block telemetry
+||beacon.*^
+/beacon/event/*
+/beacon/metrics
+/beacon/timing?
+/beacon/track/*
+/beacon/vtn_loader.gif?
+/beacon/collector/*
+/beacon/error?
+
+! yandex adblock
 ||yandex.ru/metrika^
 ||yandex.ru/ads^
+||ads.yandex.com^
+||yandex.ru/ads/*^
+||yandex.by/ads/*^
+||yandex.com/ads/*^
+||yandex.net/ads/*^
+||yandex-pogoda.static-storage.net^
 ||yandex.ru/context^
 ||yandex.ru/adv^
 ||yandex.ru/counter^
@@ -188,7 +560,82 @@
 ||yandex.ru/heatmap^
 ||yandex.ru/goal^
 ||yandex.ru/visit^
-||doubleclick.net^
+||avatars.mds.yandex.net/get-adfox-content/^
+||yandex.ru/adfox/^
+||yandex.by/adfox/^
+||yandex.ru/ads/trace?pcodever=1305060^
+||yandex.com/clck/click/^
+||yandex.ru/clck/click/^
+||yandex.by/clck/click/^
+||ext-cloudcdn-mnskbeltel-01.cdn.yandex.net^
+||network-lc.ru^
+||an.count.ya.ru^
+||api.browser.yandex.ru^
+||api.browser.yandex.by^
+||yabs.yandex.ru^
+||api.messenger.yandex.net^
+||mtranslate.s3.yandex.net^
+||cid.yandex.net^
+||browser.yandex.ru^
+||keyboard.yandex.net^
+||api.messenger.yandex.net^
+||burp^
+||startup.mobile.webvisor.com^
+
+! Block dangerous scripts and executable files
+! === Group 1: never legitimate web resources — all request types ===
+/^https?:\/\/[^\/?#]+\/.*(?:\.|%2e)(?:msp|com|scr|pif|cpl|hta|htc|vbs|vbe|wsf|wsh|wsc|jse|ps1|psm1|psd1|psc1|psc2|cmd|lnk|url|scf|inf|reg|rdp|jar|jnlp|gadget|appref-ms|appinstaller|settingcontent-ms|diagcab|library-ms|iqy|slk|xll|chm|vhd|vhdx|docm|xlsm|xltm|xlam|dotm|pptm|potm|ppam|sldm|xlsb|one)(?:[?#\/]|$)/$important
+
+! === Group 2: FP-prone — navigation/iframe/download only (policy decision) ===
+/^https?:\/\/[^\/?#]+\/.*(?:\.|%2e)(?:js|svg|zip|7z|cab|gz|tar)(?:[?#]|$)/$important,document,subdocument,other
+
+! === Narrow exception: corporate macro templates ===
+@@||sharepoint.corp.example.com^*/Reports/*.xlsm$important
+
+||acdn.adnxs.com^
+||ads.pubmatic.com^
+||adx.adform.net^
+||apps.smartadserver.com^
+||c1.adform.net^
+||cdn.connectad.io^
+||creativecdn.com^
+||delivery.clickonometrics.pl^
+||dot.wp.pl^
+||eb2.3lift.com^
+||eus.rubiconproject.com^
+||fastlane.rubiconproject.com^
+||hbopenbid.pubmatic.com^
+||htlb.casalemedia.com^
+||i.connectad.io^
+||ib.adnxs.com^
+||image2.pubmatic.com^
+||image8.pubmatic.com^
+||js-sec.indexww.com^
+||js.adscale.de^
+||imasdk.googleapis.com/js/sdkloader/ima3.js^
+||onetag-sys.com^
+||pixel.rubiconproject.com^
+||prebid-eu.creativecdn.com^
+||pub.dv.tech^
+||rek.www.wp.pl^
+||rtb-csync.smartadserver.com^
+||rtb.openx.net^
+||ssp.goadservices.com^
+||allegro.hit.gemius.pl^
+||c.amazon-adsystem.com/aax2/apstag.js^
+||applets.ebxcdn.com/ebx.js^
+||ngastatic.com/s4c/tracker.js^
+||cdn.slots.baxter.olx.org
+||js.appboycdn.com
+||o433621.ingest.sentry.io
+||tracking.olx-st.com
+||atm.api.dmp.nsaudience.pl
+||fundingchoicesmessages.google.com/
+||ia.hit.interia.pl
+||interia.hit.gemius.pl
+||prywatnosc.interia.pl
+||pixel.tapad.com
+||cdnretkamn5t7jmy24yc.svc.cdn.yandex.net^
 ||ads.google.com^
 ||advertising.com^
 ||quantserve.com^
@@ -202,6 +649,10 @@
 ||smartadserver.com^
 ||sociomantic.com^
 ||adform.net^
+||alogsus.umeng.com^
+||errnewlogos.umeng.com^
+||alogus.umeng.com^
+||adashx.ut.lazada.com^
 ||nexxt.com^
 ||adroll.com^
 ||revcontent.com^
@@ -385,7 +836,6 @@
 ||bubble.ru^
 ||premier.one^
 ||onlinepbx.ru^
-||lamoda.ua^
 ||q-shopp.ru^
 ||kamkabel.ru^
 ||delo-vcusa.ru^
@@ -393,7 +843,6 @@
 ||netlab.ru^
 ||newhollandsp.ru^
 ||duerr-ndt.ru^
-||3332222.ru^
 ||lovit.ru^
 ||pcradio.ru^
 ||hypegamenews.ru^
@@ -414,12 +863,6 @@
 ||vplaboratory.ru^
 !------------------ Common banner names ----------------------------------------!
 !-------------------------------------------------------------------------------!
-||carambis.ru/static/new/programs/promo/$third-party
-||iframe.tvzavr.ru/action/window/*?autoplay=1$third-party
-||iframe.tvzavr.ru/iframe/index.html?cid=*&autoplay=1$third-party
-||n*adserv.com/vast.xml
-||videosafe.tv/video/embed/*?autoplay=1$third-party
-||dondlo.$third-party
 ||cenoobi.run^
 ||adtec.ru^
 ||x-app639-cc.tod99shi.com^
@@ -442,8 +885,8 @@
 ||cdn-t.b5c1d2e8c9982e3b965a27ac72ru7284cc.com^
 ||cdn.dmtgvn.com^
 ||llet787bww.com^
-||1463.info^$all
-||www.mir-stalkera.ru^$all
+||1463.info^
+||www.mir-stalkera.ru^
 ||dosawes.com^
 ||lusupodum.com^
 ||clairpixum.com^
@@ -509,7 +952,6 @@
 ||monetizer.guru^$third-party
 ||1wiipr.xyz^$document
 ||proppellerads.ru^
-||usesentry.com^
 ||fzgrpqktmq.com^
 ||igbfwa.com^
 ||ippstuet.com^
@@ -535,7 +977,6 @@
 ||adstreamer.ru^$third-party
 ||videohead.tech^
 ||openssp.ru^
-||079301eaff0975107716716fd1cb0dcd.com^
 ||gimnsr.com^
 ||wensonk.com^
 ||smatr.net^
@@ -585,7 +1026,7 @@
 ||octolinkcom.me^
 ||top-js-metrics.top.my.ua^$third-party
 ||cdn.umh.ua^$third-party
-||go.xl.ua^$all
+||go.xl.ua^
 ||a.ava.com.ua^
 ||add.in.ua^$third-party
 ||adpro.com.ua^$third-party
@@ -706,7 +1147,7 @@
 ||autous.ru^$third-party
 ||admile.ru^$third-party
 ||mrrvmp.com^
-||spots.ru^$all
+||spots.ru^
 ||byevkj.com^$third-party
 ||y8lsyibocd.ru^$third-party
 ||tobaltoyon.com^
@@ -768,7 +1209,7 @@
 ||powferads.com^$third-party
 ||zkbkat.com^$third-party
 ||j1oxqq05ry.ru^$third-party
-||1qi.info^$all
+||1qi.info^
 ||elonreptiloid.com^$third-party
 ||q0mn5t187u.ru^$third-party
 ||rotarb.bid^$third-party
@@ -846,7 +1287,7 @@
 ||tiz.jsite.top^$third-party
 ||boostingads.com^$third-party
 ||prod.html5-ads.vk-apps.com^
-||betemolgar.com^$all
+||betemolgar.com^
 ||jrs2igoimq.ru^$third-party
 ||u7kgr54jr7.ru^$third-party
 ||hwmonitor-ru.ru^$third-party
@@ -893,7 +1334,7 @@
 ||jincodiks.com^$third-party
 ||safebrowsdv.com^$third-party
 ||advmedia.by^$third-party
-||z.cdn.trafficdok.com^$all
+||z.cdn.trafficdok.com^
 ||enbpvt.com^$third-party
 ||rnwbrm.com^$third-party
 ||sehtjv.com^$third-party
@@ -971,8 +1412,8 @@
 ||adfinity.pro^$third-party
 ||portakamus.com^$third-party
 ||jmpmedia.club^$third-party
-||bestdealfor1.life^$all
-||click.zmctrack.net^$all
+||bestdealfor1.life^
+||click.zmctrack.net^
 ||denlorian.com^$third-party
 ||vir70n.news^$third-party
 ||admitad-connect.com^$third-party
@@ -990,10 +1431,9 @@
 ||ucurtatus.com^$third-party
 ||actpx.com^$third-party
 ||fegortius.com^$third-party
-||ec2-44-233-143-239.us-west-2.compute.amazonaws.com^$all
 ||ssdbkv4qtq.xyz^$third-party
 ||clickbaza.com^$third-party
-||debitcrebit669.com^$all
+||debitcrebit669.com^
 ||cematuran.com^$third-party
 ||bergfi.com^$third-party
 ||umwiba.com^$third-party
@@ -1015,7 +1455,7 @@
 ||asing.ru^$third-party
 ||tirsmile.pro^$popup
 ||redarianman.com^$third-party
-||go.ukrleads.com^$all
+||go.ukrleads.com^
 ||adstime.org^$third-party
 ||quantumpers.com^$third-party
 ||hgbn.rocks^
@@ -1096,7 +1536,6 @@
 ||1sputnik.ru^$third-party
 ||1traf.ru^$third-party
 ||24new.ru^$third-party
-||24open.ru/*?from=
 ||34bogatirya.ru^$third-party
 ||37.220.26.135^$third-party
 ||37.220.26.136^$third-party
@@ -1129,7 +1568,6 @@
 ||actiflex.org^$third-party
 ||actionpay.ru^$third-party
 ||actionrtb.com^$third-party
-||active.interzet.ru/log.php?
 ||ad-emea.doubleclick.net/
 ||ad-words.ru/contextad/
 ||ad.dumedia.ru^$third-party
@@ -1184,7 +1622,6 @@
 ||adrock.ru^$third-party
 ||adservone.com^$third-party
 ||adsgid.com^$third-party
-||adshop.ru/adshop/?
 ||adsmmgp.com^$third-party
 ||adsmo.ru^$third-party
 ||adstock.pro^$third-party
@@ -1246,7 +1683,6 @@
 ||anyfiles.ru^$third-party
 ||api9.net^$third-party
 ||apitech.ru/*/rotator.js$third-party
-||apitech.ru/Rotator/
 ||appgrade.ru/server/$third-party
 ||apytrc.com^$popup
 ||asiantraffic.net^$third-party
@@ -1382,7 +1818,6 @@
 ||contextrtb.com^$third-party
 ||costaction.com/refers/$third-party
 ||counter.megaindex.ru^$third-party
-||countlog.com/rp/mc
 ||cpaevent.ru^$third-party
 ||cpatext.ru^$third-party
 ||cpazilla.ru^$third-party
@@ -1431,11 +1866,7 @@
 ||drivenetwork.online^$third-party
 ||drivenetwork.ru^$third-party
 ||drtraff.ru^$third-party
-||dt00.net^$domain=~marketgid.com|~mgid.com|~thechive.com
-||dt07.net^$domain=~marketgid.com|~mgid.com|~thechive.com
-||e-links.ru/pr/?
 ||e-partner.ru^$third-party
-||e-place.ru/v/
 ||eberalofe.pro$third-party
 ||econrus.ru^$third-party
 ||edge-dl.andomedia.com^$third-party
@@ -1445,7 +1876,6 @@
 ||ejevika.com^
 ||elephant.fotostrana.ru^$third-party
 ||enfreine.com^
-||engine.*.medialand.ru/
 ||enot.k-yroky.ru^$third-party
 ||erahost.ru/partner/$third-party
 ||ergs4.com^$third-party
@@ -1467,14 +1897,12 @@
 ||fast2load.ru^$third-party
 ||fastsex.ru^$third-party
 ||fdsur.com^$third-party
-||fermasosedi.biz/reflink/$third-party
 ||fialet.com^$third-party
 ||filmplus.ru^$third-party
 ||firelove.ru^$third-party
 ||firsttrack.ru^$third-party
 ||fkehg.com^$third-party
 ||flapoint.ru^$third-party
-||flasher.ru/data/images/swf/
 ||flipflapflo.$third-party
 ||flygo.ru^$third-party
 ||fogtrack.net^$third-party
@@ -1516,8 +1944,6 @@
 ||gingardo.com^$third-party
 ||giosany.com^$third-party
 ||giotyo.com^$third-party
-||giraff.io^$third-party,domain=~echo.msk.ru
-||giveawayoftheday.com/ticker/
 ||glamurka.net^$third-party
 ||globalstars.ru^$third-party
 ||globalteaser.com^$third-party
@@ -1529,7 +1955,6 @@
 ||gobf.ru^$third-party
 ||gogetlinks.net^$third-party
 ||gogousenet.com^$third-party
-||gold-music.ru/informer
 ||goldline.pro/media$third-party
 ||gomakemerich.com^$third-party
 ||gomakemerich2.com^$third-party
@@ -1539,7 +1964,6 @@
 ||goon.ru^$third-party
 ||goossb.com^$third-party
 ||gotraff.ru^$third-party
-||govazd.am/bn/
 ||govazd.am/cgi-bin/pro.cgi
 ||gowoman.ru^$third-party
 ||grand-casino.com/?$third-party
@@ -1550,9 +1974,7 @@
 ||grteab.com^$third-party
 ||gsmonitor.ru^$third-party
 ||gvapp.ru^$third-party
-||gws.ru/gwscnt/?
 ||gynax.com^$third-party
-||h12.ru/images/
 ||hdat.xyz^$third-party
 ||hdtracker.ru^$third-party
 ||hellywood.ru^$third-party
@@ -1584,19 +2006,16 @@
 ||igrun.com/?$third-party
 ||iiutq.xyz^$third-party
 ||ikiif.com^$third-party
-||images.stardock.com/store/
 ||imarker.ru^$third-party
-||img.ruclicks.com/ruclicks
 ||img1458.r.worldssl.net^$third-party
 ||img1461.r.worldssl.net^$third-party
-||imgg.dt00.net
+||imgg.dt00.net^
 ||imho.ru^$third-party
 ||imrk.net^$third-party
 ||inetlog.ru^$third-party
 ||inetrek.com/cgi-bin/
 ||inextlink.com^$third-party
 ||inf.wqa.ru^$third-party
-||infiplay.ru/*a=$third-party
 ||info.tm/$third-party
 ||infocentro.ru^$third-party
 ||informers.ukr.net^$third-party
@@ -1691,13 +2110,11 @@
 ||link2you.ru/usertools/$third-party
 ||linkexchange.$third-party
 ||linkfeed.ru^$third-party
-||linkhelp.clients.google.com/tbproxy/lh/wm
 ||linkslot.ru^$third-party
 ||linktraff.ru^$third-party
 ||linkunder.ru^$third-party
 ||linkwithin.com^$third-party
 ||linkwmr.ru^$third-party
-||list.ru/img/buttons/
 ||livedecnow.com^$third-party
 ||liverail.com^$third-party
 ||livesmi.com^$third-party
@@ -1788,7 +2205,6 @@
 ||modelatos.com^$third-party
 ||moe.video^$third-party
 ||moevideo.biz^$third-party
-||money.loveplanet.ru/nb/
 ||moneysyst.biz$third-party
 ||moneytrap.ru^$third-party
 ||moogle.ru^$third-party
@@ -1859,7 +2275,6 @@
 ||online.koko-ko.com^$third-party
 ||online.mik123.com^$third-party
 ||only4men.ru^$third-party
-||open.by/bnrs/
 ||openlinks.ru^$third-party
 ||openunder.net^$third-party
 ||openx.com^$third-party
@@ -1902,10 +2317,8 @@
 ||pingmedia.ru/images/$third-party
 ||pir.zspb.ru^$third-party
 ||placeoff.ru^$third-party
-||pluginsjquery.com^$third-party
 ||pokitom.com^$third-party
 ||pokrutim.ru^$third-party
-||pomogi.org/urgent/1/
 ||pop-parad.$third-party
 ||pop-under.$third-party
 ||popinads.com^$third-party
@@ -1928,7 +2341,6 @@
 ||promoblocks.ru$third-party
 ||promoheads.com^$third-party
 ||protectorfirewall.com/?$third-party
-||protoplex.ru/images/rating/
 ||protovid.com^$third-party
 ||psma01.com$third-party
 ||psma02.com$third-party
@@ -1939,7 +2351,6 @@
 ||pwnz.org^$third-party
 ||q1ilb0enze.ru^$third-party
 ||qkffv.com^$third-party
-||qle.ru/cgi-bin/
 ||qrstes.com^$third-party
 ||qshare.ru^$third-party
 ||quatrix.ru/scripts$third-party
@@ -2003,7 +2414,6 @@
 ||rollad.ru^$third-party
 ||rontar.com^$third-party
 ||rorer.ru^$third-party
-||rosinvest.com/informs/
 ||rot.rusoul.ru^
 ||rot.spotsniper.ru^$third-party
 ||rotaban.$third-party
@@ -2083,7 +2493,7 @@
 ||sputnik1.ru^$third-party
 ||spytrack.tic.ru^
 ||st.astraone.io^$third-party
-||st.pay-click.ru/
+||st.pay-click.ru^
 ||standadv.com^$third-party
 ||start.fotostrana.ru^$third-party
 ||startscript.ru^$third-party
@@ -2254,7 +2664,6 @@
 ||vidustal.com^
 ||viewclc.com^$third-party
 ||vifog.com^$third-party
-||vihub.ru/video?plid=
 ||vimgs.ru^$third-party
 ||vipadvert.net^$third-party
 ||viperotika.net^$third-party
@@ -2273,10 +2682,8 @@
 ||voob.ru^$third-party
 ||voronezh136.ru^$third-party
 ||vpath.net^$third-party
-||vpoiskeraboti.ru/?p$third-party
 ||vsdcdn.com^$third-party
-||vsego.ru/images/b
-||vsem.ru/img$third-party
+||vsem.ru/img^$third-party
 ||vsemayki.ru*/?ref=$third-party
 ||vsemayki.ru/*&ref=$third-party
 ||vsesumki.com^$third-party
@@ -2287,21 +2694,15 @@
 ||vztfc.com^$third-party
 ||w*statistics.info^$third-party
 ||wapstart.ru^$third-party
-||web-moneta.com/images/ban*.
-||web-rotation.net$third-party
+||web-rotation.net^$third-party
 ||web-visor.$third-party
-||webeffector.ru/?invitation=$third-party
 ||webgringo.ru^$third-party
-||webhost1.ru/?r=$third-party
 ||webmedia.co.il^
-||weboborona.ru/pic/wban
-||webplus.info/getres.php?
 ||websharks.ru^$third-party
-||websurf.ru/?
+||websurf.ru^
 ||webturn.ru^$third-party
 ||webunder.ru^$third-party
 ||wedgeac.com^$third-party
-||wemall.ru/adv/$third-party
 ||whisla.com^$third-party
 ||widget.admitad.com^$third-party
 ||widget.market-place.su^$third-party
@@ -2316,7 +2717,6 @@
 ||wmcasher.ru^$third-party
 ||wmclickz.ru^$third-party
 ||wmirk.ru^$third-party
-||wmkredit.ru/widget/$third-party
 ||wmlink.ru^$third-party
 ||wmrok.com^$third-party
 ||wmrok.net^$third-party
@@ -2328,7 +2728,6 @@
 ||world-2012.info^
 ||wowlink.ru^$third-party
 ||wowmoscow.ru^$third-party
-||ws.amazon.*/widgets/q?$third-party
 ||wsp.marketgid.com^
 ||wtoredir.com^$third-party
 ||wwclickgo.com^$third-party
@@ -2343,20 +2742,19 @@
 ||xaogi.com^$third-party
 ||xiepl.com^$third-party
 ||xmemory.ru^$third-party
-||xnet.am/widget$third-party
+||xnet.am/widget^$third-party
 ||xoliter.com^$third-party
 ||xsell.6waves.com^$third-party
 ||xxx-babes.org^$third-party
-||yazzle.ru/images/banners/$third-party
+||yazzle.ru/images/banners/^$third-party
 ||ybpxv.com^$third-party
 ||ylkkp.com^$third-party
 ||ynwia.com^$third-party
 ||yottos.com$third-party
 ||yourlustmedia.com^$third-party
-||yournewhosting.com/images
+||yournewhosting.com/images^
 ||ytimgg.com^$third-party
 ||yugaley.info^$third-party
-||zahodi-ka.ru/wbmaster/index/schet.cgi?
 ||zamok911.com^$third-party
 ||zapbox.ru^$third-party
 ||zarabotki.ru^$third-party
@@ -2364,11 +2762,8 @@
 ||zewkj.com^$third-party
 ||zhkzt.com^$third-party
 ||zoda.ru^$third-party
-||zoomumba.bigpoint.com/?aid=$third-party
 ||zorkabiz.ru^$third-party
 ||zqmwf.xyz^$third-party
-||193.200.64.24^
-||206.54.181.250^
 ||popvalk.com^$third-party
 ||bjiuck.com^
 ||cpm.wargaming.net^$third-party
@@ -2447,7 +2842,6 @@
 ||ads.livetvcdn.net^
 ||adshow.sc2tv.ru^
 ||afbanner.kinobomber3.online^
-||an.yandex.
 ||an.yandex.ru^
 ||b.1istochnik.ru^
 ||b.povarenok.ru^
@@ -2455,7 +2849,6 @@
 ||banners.haqqin.az^
 ||banners.prikol.ru^
 ||banshop.gruntovik.ru^
-||bet.championat.com^
 ||bet.championat.com^$important
 ||bn.take-profit.org^
 ||c.grimuar.ru^$third-party
@@ -2757,7 +3150,6 @@
 ||bbnfcfrvjs.com^
 ||adsjumbo.com^
 ||cdend.com^
-||googles.video^
 ||brunettemattersrefused.com^
 ||adshares.net^
 ||ad.foxnetworks.com^
@@ -3806,7 +4198,6 @@
 ||dx7.sosporntube.com^
 ||dzqtn.lesbianbliss.com^
 ||e.seksohub.com^
-||e.sexbule.xxx^
 ||e.sexygirlscontact.com^
 ||earnvids05032026.shop^
 ||easyjav12.fun^
@@ -3840,8 +4231,6 @@
 ||flower1266.fun^
 ||followjav182.fun^
 ||foorcdn.com^
-||fuckers.nieuws.xxx^
-||fuwn782kk.alphaporno.com^
 ||fx9.freepornoboss.com^
 ||g.milftube.mobi^
 ||ga.tubepork.com^
@@ -3895,14 +4284,6 @@
 ||i11.mayoblast.com^
 ||i1901zxd.xyz^
 ||i1i.heyaiii111iidsfsdbfjb132222ffco.xyz^
-||i2.mayoblast.com^
-||i3.mayoblast.com^
-||i4.mayoblast.com^
-||i5.mayoblast.com^
-||i6.mayoblast.com^
-||i7.mayoblast.com^
-||i8.mayoblast.com^
-||i9.mayoblast.com^
 ||ignore.hot-bbw-tube.com^
 ||ili.dtu0itqvnilimdqlq554qf1.online^
 ||ilpgfdbc.xyz^
@@ -3918,15 +4299,6 @@
 ||islandjav182.fun^
 ||ix2.deepsexvids.com^
 ||izjzyykiyn.club^
-||javabsence11.fun^
-||javgenetic11.fun^
-||javlicense11.fun^
-||javmanager11.fun^
-||javpercent11.fun^
-||javpremium11.fun^
-||javtrouble11.fun^
-||javtrustee11.fun^
-||javunaware11.fun^
 ||je4y15ji.xyz^
 ||jo.429men.com^
 ||jo.fapnado.xxx^
@@ -4533,8 +4905,6 @@
 ||m.hue2b.com^
 ||m.optidigital.com^
 ||management-boost.exads.com^
-||management-itsup.exads.com^
-||management-slice.exads.com^
 ||management-topple.exads.com^
 ||management-venntro.exads.com^
 ||management-vsmedia.exads.com^
@@ -4556,40 +4926,6 @@
 ||s.cant3am.com^
 ||s.chnsrv.com^
 ||s.datingclix.com^
-||s.ds239w.com^
-||s.ds2gs4.com^
-||s.ds3jbr.com^
-||s.ds3u8n.com^
-||s.ds3zoh.com^
-||s.ds4zqa.com^
-||s.ds6ulg.com^
-||s.ds7eji.com^
-||s.ds7khy.com^
-||s.ds7o2i.com^
-||s.ds8wql.com^
-||s.ds96gk.com^
-||s.dsa9k5.com^
-||s.dsajir.com^
-||s.dsal8i.com^
-||s.dsbtnw.com^
-||s.dsceay.com^
-||s.dsd8vc.com^
-||s.dseb0x.com^
-||s.dsebx6.com^
-||s.dsejln.com^
-||s.dseoeg.com^
-||s.dservq.com^
-||s.dsfglq.com^
-||s.dsfvuh.com^
-||s.dsgsyp.com^
-||s.dsonb4.com^
-||s.dsqcjk.com^
-||s.dsskyw.com^
-||s.dsssnr.com^
-||s.dst8vn.com^
-||s.dstfgh.com^
-||s.dsvrqo.com^
-||s.dsx827.com^
 ||s.eaalink.com^
 ||s.elink2b.com^
 ||s.elink2c.com^
@@ -4601,46 +4937,6 @@
 ||s.elna1v.com^
 ||s.elna1w.com^
 ||s.elna1x.com^
-||s.elnb20.com^
-||s.elnb21.com^
-||s.elnb22.com^
-||s.elnc34.com^
-||s.elnc35.com^
-||s.elnc36.com^
-||s.elnd22.com^
-||s.elnd25.com^
-||s.elnk40.com^
-||s.elnk4b.com^
-||s.elnk4d.com^
-||s.elnk66.com^
-||s.elnk90.com^
-||s.elnk92.com^
-||s.elnkp2.com^
-||s.elnkp4.com^
-||s.elnl2a.com^
-||s.elnl2b.com^
-||s.elnn10.com^
-||s.elnn12.com^
-||s.elnn14.com^
-||s.elnn20.com^
-||s.elnn22.com^
-||s.elnn26.com^
-||s.elnp11.com^
-||s.elnp12.com^
-||s.elnp13.com^
-||s.elnr14.com^
-||s.elnr15.com^
-||s.elnr16.com^
-||s.elns12.com^
-||s.elns2a.com^
-||s.elns4a.com^
-||s.elns4b.com^
-||s.elns4c.com^
-||s.elnz02.com^
-||s.elnz03.com^
-||s.elnz11.com^
-||s.elnz21.com^
-||s.elnz23.com^
 ||s.exoqarys.com^
 ||s.exv6.com^
 ||s.golhofer.com^
@@ -4667,15 +4963,6 @@
 ||s.wlink1.com^
 ||s.wlink2.com^
 ||s.x47b2v9.com^
-||s.zlink0.com^
-||s.zlink1.com^
-||s.zlink3.com^
-||s.zlink4.com^
-||s.zlink7.com^
-||s.zlink8.com^
-||s.zlink9.com^
-||s.zlinkb.com^
-||s.zlinkl.com^
 ||s.zlinkn.com^
 ||s.zlinkr.com^
 ||narwhal.quickbudget.xyz^
@@ -5133,7 +5420,6 @@
 ||numbers.md^
 ||rotaban.ru^
 ||stat.kika-backend.com^
-||static.doubleclick.net^
 ||tapsense.com^
 ||tapstat.ru^$third-party
 ||targetspot.com^
@@ -5180,7 +5466,6 @@
 ||monetizer.guru^$third-party
 ||1wiipr.xyz^$document
 ||proppellerads.ru^
-||usesentry.com^
 ||ad2the.net^
 ||get2.fun^
 ||adtscriptshark.com^
@@ -5459,9 +5744,8 @@
 ! Blocking  mobile tracking
 
 ||aemetrics.aliexpress.ru^
-||*cdn-settings.appsflyersdk.com^
-||*launches.appsflyersdk.com^
 ||*conversions.appsflyersdk.com^
+||launches.appsflyersdk.com^
 ||*inapps.appsflyersdk.com^
 ||*register.appsflyersdk.com^
 ||adrevenue.appsflyer.com^
@@ -5542,10 +5826,9 @@
 ||m.vk.com/counters.php
 ||metrics.adflake.com^
 ||metrics.sdkbox.com^
-||mixpanel.com/track
+||mixpanel.com/track^
 ||mlb.did.ijinshan.com^
 ||mobile-collector.newrelic.com^
-||mobile-global.baidu.com/mbrowser/stat/
 ||mobileanalytics.*.amazonaws.com^
 ||mobilelog.upqzfile.com^
 ||tns.simba.taobao.com^
@@ -5570,7 +5853,6 @@
 ||top.lv^$third-party
 ||topsite.lv^$third-party
 ||webstatistika.lv^$third-party
-||dcdn.lt/g.js
 ||easy.lv^$third-party
 ||maxtraffic.com^$third-party
 ||mxapis.com^$third-party
@@ -6043,31 +6325,138 @@
 ||xbet.com^
 ||*xbet*^
 
-! youtube adblock
-||cache1.c.youtube.com^
-||lscache1.c.youtube.com^
-||redirector.c.youtube.com^
-||redirector.googlevideo.com^
-||restrict.youtube.com^
-||ads.youtube.com^
-||yt3.ggpht.com^
-||analytics.youtube.com^
-||hn9e.googlevideo.com^
-||ai.ytimg.com^
-||video-analytics.google.com^
-||r8.sn-cxauxaxjvh-hn9k.googlevideo.com
-||rr1---sn-5q8pojxquxjict-hn9e.googlevideo.com
-||r8---sn-cxauxaxjvh-hn9k.googlevideo.com
-||rr5---sn-cxauxaxjvh-hn9y.googlevideo.com
-||rr2---sn-5q8pojxquxjict-hn9e.googlevideo.com
-||hn9k.googlevideo.com
-||hn9y.googlevideo.com
-||hn9e7.googlevideo.com
-||hn9ez.googlevideo.com
-||hn9l.googlevideo.com
-||winwin.bet
-
 ! SECTION: Cookies - General element hiding
+!
+! Блокировка основных cookie аналитики (Regex)
+$cookie=/^_ga_|^_gid|^_gat|^_fbp|^_fbc|^_ym_|^metrika/
+$cookie=/^cfz_/
+! Блокировка cookie систем управления согласием (CMP), которые часто используются для трекинга
+$cookie=cookie_consent
+$cookie=OptanonConsent
+
+! === GLOBAL ANALYTICS BLOCK ===
+
+#%#//scriptlet("abort-on-property-read", "gtag")
+#%#//scriptlet("abort-on-property-read", "ga")
+#%#//scriptlet("abort-on-property-read", "dataLayer")
+#%#//scriptlet("abort-on-property-read", "google_tag_manager")
+#%#//scriptlet("abort-on-property-read", "google_ads")
+#%#//scriptlet("abort-on-property-read", "googletag")
+#%#//scriptlet("abort-on-property-read", "google_conversion_id")
+#%#//scriptlet("abort-on-property-read", "fbq")
+#%#//scriptlet("abort-on-property-read", "ym")
+#%#//scriptlet("abort-on-property-read", "yandex_metrika")
+#%#//scriptlet("abort-on-property-read", "yaCounter")
+#%#//scriptlet("abort-on-property-read", "vk")
+#%#//scriptlet("abort-on-property-read", "targetGroup")
+#%#//scriptlet("abort-on-property-read", "twttr")
+#%#//scriptlet("abort-on-property-read", "twttr.conversion")
+#%#//scriptlet("abort-on-property-read", "ttq")
+#%#//scriptlet("abort-on-property-read", "tiktokPixel")
+#%#//scriptlet("abort-on-property-read", "pintrk")
+#%#//scriptlet("abort-on-property-read", "pinterest_conversion")
+#%#//scriptlet("abort-on-property-read", "hj")
+#%#//scriptlet("abort-on-property-read", "hotjar")
+#%#//scriptlet("abort-on-property-read", "hjSiteSettings")
+#%#//scriptlet("abort-on-property-read", "mixpanel")
+#%#//scriptlet("abort-on-property-read", "mpq")
+#%#//scriptlet("abort-on-property-read", "amplitude")
+#%#//scriptlet("abort-on-property-read", "amp")
+#%#//scriptlet("abort-on-property-read", "Criteo")
+#%#//scriptlet("abort-on-property-read", "taboola")
+#%#//scriptlet("abort-on-property-read", "taboolaPixel")
+#%#//scriptlet("abort-on-property-read", "UET")
+#%#//scriptlet("abort-on-property-read", "analytics")
+
+
+! Блокировка Facebook Pixel и трекинга
+*$cookie=/^_fbp/,domain=~facebook.com|~instagram.com|~meta.com
+*$cookie=/^fr/,domain=~facebook.com|~instagram.com|~meta.com
+
+! Блокировка Яндекс.Метрики (если не используете Яндекс для авторизации, уберите исключения domain=~yandex.ru)
+*$cookie=/^_ym_/,domain=~yandex.ru|~ya.ru
+
+! Блокировка Intercom (виджеты поддержки, которые собирают данные)
+*$cookie=/^intercom-id/
+*$cookie=/^intercom-session/
+
+! Блокировка Mailchimp
+*$cookie=/^mc_cid/
+*$cookie=/^mc_eid/
+
+! Блокировка New Relic
+*$cookie=/^NRSESSIONID/
+
+! Универсальная блокировка общих трекинговых cookie (начинаются с _utm, _scid, _sp_id и т.д.)
+*$cookie=/^_utm/
+*$cookie=/^_scid/
+*$cookie=/^_sp_id/
+*$cookie=/^_sp_ses/
+*$cookie=/^_gcl_au/
+*$cookie=/^AMP_TOKEN/
+*$cookie=/^_dc_gtm/
+
+! Удаление UTM-меток (маркетинговая аналитика)
+ $removeparam=utm_source
+ $removeparam=utm_medium
+ $removeparam=utm_campaign
+ $removeparam=utm_term
+ $removeparam=utm_content
+ $removeparam=utm_cid
+ $removeparam=utm_reader
+ $removeparam=utm_name
+ $removeparam=utm_social
+ $removeparam=utm_social-type
+
+! Удаление идентификаторов клика от соцсетей и поисковиков
+ $removeparam=fbclid
+ $removeparam=gclid
+ $removeparam=gclsrc
+ $removeparam=dclid
+ $removeparam=msclkid
+ $removeparam=yclid
+ $removeparam=_openstat
+ $removeparam=ymclid
+ $removeparam=wickedid
+ $removeparam=twclid
+
+! Удаление трекеров почтовых рассылок и прочих сервисов
+ $removeparam=mc_eid
+ $removeparam=mc_cid
+ $removeparam=hsa_cam
+ $removeparam=hsa_grp
+ $removeparam=hsa_mt
+ $removeparam=hsa_src
+ $removeparam=hsa_ad
+ $removeparam=hsa_acc
+ $removeparam=hsa_net
+ $removeparam=hsa_kw
+ $removeparam=hsa_tgt
+ $removeparam=hsa_ver
+ $removeparam=hsa_la
+ $removeparam=hsa_ol
+ $removeparam=igshid
+ $removeparam=si
+
+! === Общие трекеры и аналитика ===
+||analytics.*^$cookie
+||metrics.*^$cookie
+||tracking.*^$cookie
+||tracker.*^$cookie
+||pixel.*^$cookie
+||beacon.*^$cookie
+||telemetry.*^$cookie
+||stat.*^$cookie
+||stats.*^$cookie
+||counter.*^$cookie
+||counters.*^$cookie
+||log.*^$cookie
+||logs.*^$cookie
+
+! Скрываем заголовки Client Hints (Chrome/Edge передают эти данные по умолчанию)
+ $removeheader=sec-ch-ua
+ $removeheader=sec-ch-ua-mobile
+ $removeheader=sec-ch-ua-platform
 !
 ##.cookies-modal
 ##.wtm-cookies
@@ -6320,9 +6709,7 @@
 ##.penci-wrap-gprd-law
 ###cookieconsentdiv
 ###easy-cookies-policy-main-wrapper
-~zagojeni.pl##.rodo-overlay:not(body):not(html)
 ##.tibrr-cookie-consent-container
-##cloudflare-app[app="tibrr-cookie-consent"]
 ##.clearfy-cookie
 ##.nr-cookie-notification
 ###redim-cookiehint:not(body):not(html)
@@ -6334,7 +6721,6 @@
 ##.cp-info-bar-container
 ##.O-CookieLaw
 ##.gpm-cookie-accepted
-##cloudflare-app[app="cookiless"]
 ###privacy-consent
 ###domCookieWarning:not(html):not(body)
 ##.gdprPopup
@@ -7043,7 +7429,6 @@
 ###itv-glob-cookie-policy
 ###jQAlertAcceptCookie
 ###jlp-cookie-container
-###jquery-cookie-law-script
 ###js-TosPrivacy
 ###js-cookie-notice
 ###js-ext-cookie
@@ -7208,9 +7593,6 @@
 ###wt-cookie-box
 ###ww-cookie-information
 ###zaz-nb-plugin-cookie-message
-##.CNIL
-##.COOKIECONSENT_BANDEAU
-##.Common-Privacy-HeaderCookiesMessage
 ##.CookieAcceptPanel
 ##.CookieBanner:not(body):not(html)
 ##.CookieBar:not(body)
@@ -7692,14 +8074,12 @@
 ##.sys_cc-cookies
 ##.tCook
 ##.tcCookiesDialogWrapper
-##.tesco-cookie
 ##.texteAlerteCookie
 ##.toast-type-newCookie
 ##.tre-cookie-disclaimer
 ##.ui-dialog-cookies
 ##.uk-cookie
 ##.uk-cookie-banner
-##.uk-cookies
 ##.ultimize_cookie_notification_container
 ##.umuCookieMain
 ##.use-cookie-container
@@ -7710,35 +8090,8 @@
 ##.wrapper--cookies
 ##.wrapper--cookies-disclaimer
 ##.wrapperCookies
-##.wsa-cookielaw
-##body > #ckch
-!+ NOT_OPTIMIZED
-###didomi-notice
-!+ NOT_OPTIMIZED
-/mrf4u/cmp/*/*.js?autoinit=
-!+ NOT_OPTIMIZED
-###cm-cookie-policy
-!+ NOT_OPTIMIZED
-###idxrcookies
-!+ NOT_OPTIMIZED
-##.cookie-popup:not(body):not(html)
-!+ NOT_OPTIMIZED
-##.cookie-wrapper
-!+ NOT_OPTIMIZED
-##.contao-cookiebar
-!+ NOT_OPTIMIZED
-###CookieQBanner
-!+ NOT_OPTIMIZED
-##.cookies-banner
-!+ NOT_OPTIMIZED
-##.cookie-overlay:not(html):not(body)
-!+ NOT_OPTIMIZED
-##.cookie-notice:not(body):not(html)
-!+ NOT_OPTIMIZED
-##.cookie-banner:not(body):not(html)
-!+ NOT_OPTIMIZED
-###cookie-law-info-bar
-! NOTE: General element hiding end ⬆️
+
+! NOTE: General element hiding 
 ! !SECTION: Cookies - General element hiding
 !
 !#######################################################
@@ -7747,15 +8100,11 @@
 !
 ! SECTION: Cookies - General URL
 !
-/gd-cookie2.js
-/modules/cookiesplus/views/js/cookiesplus-front.js
-/wp-content/plugins/cookieadmin/assets/*
-/wp-content/plugins/cookieadmin-pro/assets/*
+
 ||sp.api.no^
 ||cmp.bonniernews.se^
 ||cdn.sypher.eu/consent/
 ||consent.sypher.eu/cnst/
-/kvkk.cookie.v2.min.js
 ||cookies.nos.nl^
 ||app.termly.io/resource-blocker/
 ||privacy.condenastdigital.com^$third-party
@@ -7764,17 +8113,8 @@
 ||cmpv2.tori.fi^
 ||cookies.pro-idea.cz^
 ||cookies.praguebest.cz^
-/gd-cookie.js
 ||consenttool.haendlerbund.de^
 ||cookie.marsus.digital^
-/klaro/config.js
-/klaro-config.js
-/klaro/klaro-no-css.js
-/dock-privacy-settings.esm.js
-||app.enzuzo.com/scripts/cookiebar/
-/fs-cc.js
-/kseo/ks-cookiebot/ks-cookiebot-
-/echonetcookie.js
 ||gdpr-legal-cookie.com^
 ||cookies.giant.cz^
 ||complydog.com^$third-party
@@ -7782,59 +8122,40 @@
 ||kvksis.com^$third-party
 ||cloudlog.ch/cloudlog/cookie/public/app.js
 ||hrabos-gdpr.aira.cz^
-/modules/kixelltag/views/js/kst-$script
 ||cmp.dreamplusgames.com^
 ||cdn.ekm.net/ekmps/assets/js/shop-front/euCookieBarV2.js
 ||service-cmp.com^$third-party
 ||consent.nitrocnct.com^
 ||cdn.cookiesuit.com^$third-party
-/wp-content/plugins/consent-magic-pro/*
 ||transcend-cdn.com^$third-party
 ||cmp.sibbo.net^
-/pandectes-core.js
 ||consentbanner.de^$third-party
-/cookiewookie.js
-/css/modules/consent.css^$~third-party,domain=~avela.no
-/dist/resources/js/consent.js^
-/dist/resources/html/consentA.html^
 ||consent.dadoslegais.com.br^
-/ajax/getCookieConsent.php
-/jquery.bs.gdpr.cookies.min.js
-||cdn.shopify.com/extensions/*/assets/consentmo_cookie_consent.js
-||cloudfront.net/js/gdpr_cookie_consent.min.js
-||cdn.transcend.io/cm/*/airgap.js
+||cdn.shopify.com/extensions/*/assets/consentmo_cookie_consent.js$script
+||cloudfront.net/js/gdpr_cookie_consent.min.js$script
+||cdn.transcend.io/cm/*/airgap.js$script
 ||cm.nxtm.pl^$third-party
 ||ccdn.mobildev.in^
-/jquery.bs.gdpr.cookies.js
 ||cookieparty.eu^$third-party
 ||gatekeeperconsent.com^$third-party
-/smart-eu-cookies.min.js
 ||bundles.efilli.com^$third-party
 ||gdpsystem.eu/*/cookiesprivacy$script
 ||consentframework.com^$third-party
 ||seersco.com^$third-party
 ||cerezgo.com^$third-party
-||datasign.co/js/opnWidget.js
+||datasign.co/js/opnWidget.js$script
 ||cmp.datasign.co^
-||datasign.co/js/opn.js
+||datasign.co/js/opn.js$script
 ||soglkuki.prolexgroup.ru^
 ||clickiocmp.com^$third-party
-/simple-cookies_for_hu.js
-/mod_consent/js/*$script
-/mod_pescookies/*$script
 ||fastcmp.com^$third-party
-/ferra-cookie-consent-widget.min.js
-/ACC_js.php?$script
 ||cookiemanager.dk^
 ||cookies.fo^$third-party
-/Amasty_GdprFrontendUi/*
 ||app.prive.eu/consent
-/wp-content/plugins/lightweight-cookie-notice-free/*
 ||cmp.setupcmp.com^$third-party
 ||cmp.pubtech.ai^$third-party
 ||hu-manity.co^$third-party
 ||cookie-lista.cz^$third-party
-/gdpr-cookie-min.
 ||cookieform.pl^$third-party
 ||privacy.wum.rocks^
 ||cookiespool.com^$third-party
@@ -7847,38 +8168,23 @@
 ||smart.idmnet.pl^$third-party
 ||gravito.net/cmp$script,xmlhttprequest
 ||axept.io^$third-party
-/ccnst/ccbundle.min.js
-/wp-content/plugins/ninja-gdpr-compliance/*
-/simplyflex_cookies.
-/borlabs-cookie/*$~script
-||controlcookies.com^$third-party
-/lssicookies/digicookies.js
-/wecoma-lite.js
 ||cmp.quantcast.com^
-/plugins/ws5_eucookie/*
-/cookie-law-generator/*
-/cookie-consent-tool/*
-/wp_content/plugins/gdpr_patron/*
 ||clickskeks.at^$third-party
 ||consent.nit.ro^$third-party
-/wp-content/plugins/dsgvo-tools-cookie-hinweis-datenschutz/*
 ||delivery.consentconverter.com/delivery/cmp.php
 ||ccm.takuma.de^$third-party
 ||gdpr-legal-cookie.beeclever.app^$third-party
-/cookie-law-info-public.js
 ||ecookie.nl^$third-party
 ||webcache.datareporter.eu/c/*/banner.js
 ||cdn.userdatatrust.com^$third-party
 ||ccm19.de^$third-party
 ||cookie-widget.ru^$third-party
 ||legalmonster.com^$third-party
-/cm4all.com.widgets.CookiePolicy/show.
-/emh_cookiebanner/*
 ||up-cookiemon.wavecdn.net^$third-party
-||cdn-cookieyes.com/client_data/*.js
+||cdn-cookieyes.com/client_data/*.js$script
 ||cdn.privacytools.com.br^$third-party
 ||cdn.ampproject.org/v0/amp-consent-*.*.mjs
-||cdn.ampproject.org/v0/amp-consent-*.*.js
+||cdn.ampproject.org/v0/amp-consent-*.*.js$script
 ||mrf.io/cmp/
 ||cdn.gravito.net/hmdcmp/$third-party
 ||goadopt.io^$third-party
@@ -7886,24 +8192,17 @@
 ||clickiocdn.com/*consent_*.js
 ||cookihq.com^$third-party
 ||cookiepro.com^$third-party
-/wp-content/plugins/rdm-daac-notice/*
 ||choices.consentframework.com^$third-party
 ||consent-notice.magix.com^$third-party
-/js/avia-snippet-cookieconsent.js
 ||cmp.md-nx.com^$third-party
 ||appconsent.io^$third-party
-/wp-content/plugins/smart-cookie-kit/*
 ||noterium.com^$third-party
 ||c.evidon.com/sitenotice/
-/didomi.js
-/cmp_didomi.js
 ||cdn.trustcommander.net/privacy^
-||static.axept.io/sdk.js
+||static.axept.io/sdk.js$script
 ||cdn.privacy-mgmt.com^$third-party
 ||cmp.osano.com^
-/javascript/component-CookieConsent
 ||rcsobjects.it/rcs_cpmt/
-/cookie-consent?
 ||cookie-sl.s3.*.amazonaws.com^$third-party
 ||cookiefirst.com^$third-party
 ||hs-banner.com^$third-party
@@ -7914,300 +8213,14 @@
 ||cookiehub.net^$third-party
 ||cdn.opencmp.net^$third-party
 ||cookie-switch.viminds.de^$third-party
-/amp-user-notification-
 ||cookieinfoscript.com^$third-party
 ||cookie-script.com^$third-party
-/sncmp.min.js
-/cookie-consent-manager.js
-/gdpr.js
 ||tracker.convead.io^$third-party
 ||eurocookie.galilcloud.wixapps.net/?cacheKiller=$third-party
-/wp-content/plugins/easy-cookies-policy/*
-/cmp/int_cmp.
-/cmp/heycookie.js
-/cmp_shim.js
-/wp-content/plugins/wp-gdpr-compliance/*
-/wp-content/plugins/zigcookie/*
-/ibeugdpr.min.js
 ||oil.axelspringer.com^$third-party
-/penton_gdpr.js
 ||consent.cmp.oath.com^$third-party
 ||cookielaw.org^$third-party
 ||cookiebot.com^
--agree-cookies/
--cookie-banner-
--cookie-cnil.
--cookie-filter/$script
--cookie-law-popup.
--cookie-law.js
--cookie-law/$script
--cookie-message.js
--cookie-msg-bar.
--cookie-notice.
--cookie-policy.
--cookie-popup/
--cookieconsent-
--CookieInfo.
--cookiePolicy.
--cookies-policy.
--eu-cookies/$script
--eucookie.
--privacy-cookie-
-.cookie-law.$script
-.cookie_law.
-.cookieconsent.$domain=~cookieconsent.io
-.cookiecuttr.^$domain=~argeweb.nl
-.cookielaw.js
-.cookienotice.
-.cookiepolicy.
-.cookiesdirective.
-.cookiesdirective_
-.cookiesmessage.
-.cookiesPolicy.
-.divascookies-
-.EuCookieCompliance.
-.fscookieconsent.
-/__cookie_js.php
-/ac_cookiesvalidation/*
-/media/plg_system_eprivacy
-/accept-cookie.
-/acceptCookies.
-/alertcookie.
-/alertcookies.
-/amCookieApproval.
-/asesor-cookies-
-/avisCookies.
-/aws-cookie/*
-/bandeaucookie.
-/bauer.cookies.
-/cipr-cookie-opt-out/*
-/cnil-cookies_
-/cnil.js
-/coCookiesDisclaimer.
-/cookie-accept.js
-/cookie-alert.
-/cookie-bandeau.
-/cookie-banner$domain=~github.com|~praxismarketing-institut.com|~antritt-hilden.de
-/cookie-bar-
-/cookie-bar.
-/cookie-check.js
-/cookie-compliance.
-/cookie-consent.
-/cookie-consent/*$domain=~geenstijl.nl|~argeweb.nl|~europa.eu|~linkedin.com
-/cookie-control.
-/cookie-disclaimer.
-/cookie-disclaimer/*
-/cookie-eu/*
-/cookie-footer-
-/cookie-info.
-/cookie-law-$~script,~stylesheet
-/cookie-manager.min.js
-/cookie-master.js
-/cookie-message.
-/cookie-notice.
-/cookie-notice/*$~stylesheet
-/cookie-notification.
-/cookie-notifications.
-/cookie-policy-
-/cookie-policy.js
-/cookie-policy/*
-/Cookie-popup-
-/cookie-popup.
-/cookie-prompt.
-/cookie-richtlinie.
-/cookie-terms.
-/cookie.policy.
-/cookie.response.
-/cookie/policy-
-/cookie_acceptance_
-/cookie_alert*.js
-/cookie_banner-
-/cookie_banner.
-/cookie_bar.
-/cookie_consent.
-/cookie_consent/*
-/cookie_consent_
-/cookie_information_$script
-/cookie_law.js
-/cookie_law/*
-/cookie_legal_$script
-/cookie_msg.js
-/cookie_notice.
-/cookie_notification-
-/cookie_notifier/*
-/cookie_policy.
-/cookie_policy_
-/cookie_ws.
-/cookie_ws/*
-/cookieacceptance.
-/cookiealert.
-/CookieAlertBootStrapper.
-/cookiebadge.
-/cookiebadge_
-/cookiebanner.
-/cookiebar-
-/cookiebar.
-/cookieBox.js
-/cookiec.json
-/cookiechoice.js
-/cookiechoices-
-/cookiechoices.
-/cookieCompliance.js
-/cookiecompliance/*$script
-/cookiecompliancy.
-/cookieConsent-
-/cookieconsent.$~stylesheet,domain=~crm.cat|~alginor.no|~khl.ru|~kundenkonto.lidl-connect.de|~shmoop.com|~retrogames.cc|~download.pixelexperience.org|~data.gov.lv|~douglas.*
-/cookieconsent/*
-/cookieconsent_
-/cookiecontrol-$domain=~msi.com
-/cookiecontrol.js
-/cookiecontroller.js
-/cookiecu.
-/cookiecutter.js
-/cookied.js
-/cookiedirective*.js
-/cookieDisclaimer.js
-/cookiedisclosure.
-/cookiehint.
-/CookieInfo.
-/cookieinfo/*$script
-/cookieInformerBooklet_
-/cookiejar/*
-/cookielaw.
-/cookielawinfo.$~script
-/cookielex/*
-/cookiemanagement.js$domain=~ep.knou.ac.kr
-/cookieMention.
-/cookiemessage_
-/cookieMetie.
-/cookiemonster.mg
-/cookieMonster.min.js
-/cookiemsg.
-/cookienotice.
-/cookienotice/*$script
-/cookieNotification.
-/cookieok.js
-/cookiepolicy.
-/cookiepolicy/*
-/cookiepolicy_
-/cookiepolicybanner.
-/cookiepolicydisclaimer.
-/cookiePolicyEN.
-/cookiepopup?
-/CookiePrompter-
-/CookieReportsDisclaimer.
-/cookies-compliant.
-/cookies-directive.
-/cookies-disclaimer.
-/cookies-enabler.
-/cookies-footer-
-/cookies-info.
-/cookies-monster.js
-/ccm19.js
-/cookies-monster/*$script
-/cookies-notice/*
-/cookies-notification.
-/cookies-overlay.
-/cookies-policy-
-/cookies-policy/*
-/cookies_acceptance.
-/cookies_bar.js
-/cookies_directive.
-/cookies_komunikat.
-/cookies_loading.php?
-/cookies_policy.js
-/Cookies_Pro/*
-/CookiesAgreement/*
-/cookiescontrol-
-/cookiesdisclaimer.
-/CookieSettingsManager?
-/cookieslegal.
-/cookiespolicy.
-/cookiesPopup.
-/cookiewarning.
-/cookiewarning2.js$script
-/cookiewarning3.js$script
-/cookiewarning4.js$script
-/cookiewet.
-/divascookies_
-/dotbandeaucookie/*
-/ecookie_check/*
-/ee-cookies-min.
-/emea-cookie-
-/eu-cookie-
-/eu-cookie.
-/EU-cookielaw.
-/eu_cookie_$script,stylesheet
-/eu_cookies.
-/eu_privacy.js
-/eu_rp_cookie.
-/euc_cookie.js
-/eucookie.
-/eucookiecompliance.
-/eucookiecompliance/*
-/EUCookieDirective.
-/eucookielaw.
-/eucookienotice.
-/eucookienotice_
-/eucookies.
-/eucookiesk.
-/eucookieslaw/*$script
-/EUCookieUtility.
-/fp_cookie.
-/g4cookies.
-/GestionCookiesCNILPlugin/*
-/icit-cookie-law/*
-/ico_cookies.
-/icocookies.
-/impresacookiepolicy/*
-/InfoCookies.
-/ipc_show_cookie_banner.js
-/jbcookies.
-/jjp_eucookie_
-/jqueryCookieGuard.
-/js-cookie-master/*$script
-/legalcookie.
-/lma-cookie.
-/mod_cookiesaccept/*
-/mod_jbcookies/*
-/mweb.cookie/*$script
-/newprivacypolicy.
-/ocgcookie?
-/plugin_cookie/*
-/plugins/CookieInfo/*
-/plugins/EuCookie/*
-/rbicookiepolicy.
-/rtiCookieLaw.
-/SetConsentCookie.
-/SetCookieBanner.
-/sni_cookie_privacy/*
-/tm.cookie.js
-/toucanCookie.
-/ttgcookieconsent-
-/TWCCookies/*
-/ubmcookieconsent-
-/uk-cookie-consent/*
-/usocookies.
-/warnCookies.
-/widgets/cookies-
-/wkp_cookies.js
-/wp-cookie-allow/*$script,stylesheet
-_cookie_bar/
-_cookie_cnil.
-_cookie_compliance.
-_cookie_consent/
-_cookie_policy.
-_cookie_policy_
-_cookiebar_
-_cookieCgu.
-_cookielaw_mip.
-_cookieMsgBox/
-_cookieNotice.
-_cookies_disclosure/
-_cookiewarn.
-_eu_cookie_
-_eucookie_compliance_
-_europecookielaw.
 ||cookie.pearshealthcyber.com^
 ||delivery.consentmanager.net^
 ||confirmic.com^$third-party
@@ -8233,88 +8246,10 @@ _europecookielaw.
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25529
 ! Rules to block cookie notice on "amp" websites on Safari
-!+ PLATFORM(ios, ext_safari, ext_android_cb)
-google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws###amp-cookie-hint
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/54351
-google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws###taw > div[style^="padding:"] > div.med + div.RDvo0e
 
-gazeta.ru###_id_accept_cookies
-||didomi.eldo.lu/*/loader.js?target_type=notice&
-alrosa.aero#%#//scriptlet('remove-class', 'cookie_on', 'body.cookie_on')
-rossiya-airlines.ru##.cookies-wrap
-lolz.live##.mainContent > div.FloatingContainer:has(> div.DismissParent div.noticeCookiesContent)
-playerok.com###__next > div[class^="MuiBox-root"] > div[class^="MuiBox-root"] > div[class^="MuiBox-root"]:has(> p > a[href="/privacy"])
-fundednext.com#%#//scriptlet('set-local-storage-item', 'cookieClose', 'true')
-webnode.*#$##cbar-root { display: none !important; }
-webnode.*#$#body.active-table-data { overflow: auto !important; }
-ekstraliga.pl#%#//scriptlet('set-cookie', 'ekstraligaCookies', 'true')
-splav.ru#%#//scriptlet('set-cookie', 'cookieNotificationDismissed', 'true')
-pitchfork.com#%#//scriptlet('trusted-click-element', '#fides-banner-container .fides-accept-all-button', '!cookie:fides_consent', '', 'reloadAfterClick:200')
-glowbug.bandcamp.com#%#//scriptlet('trusted-set-cookie', 'cookie_preferences', '%7B%22allow%22%3A%5B%5D%7D')
-/ajax/info/cookie_banner/*$domain=biokord.com
-koszulenamiare.pl##.ciacho-wrap-container
-egdata.app##main ~ div.fixed.bottom-4
-pewresearch.org##.prc-privacy-consent-wrapper
-/wp-content/plugins/prc-privacy-consent/build/consent-banner/*$domain=pewresearch.org
-scripterswar.com##body > div[style^="pointer-events: none"]:has(> div[style] > a[href="/legal"])
-popmart.com##div[class^="policy_aboveFixedContainer__"]
-memorialcenter.org##.fptruc
-supergas.ru#%#//scriptlet('set-cookie-reload', 'cookie-agree', 'true')
-okko.tv#%#//scriptlet('set-cookie', 'cookie-confirm', '1')
-obi.ru#%#//scriptlet('trusted-set-local-storage-item', 'cookie_popup_moscow', '{"data":true,"expiration":2592000}')
-terayatirim.com#%#//scriptlet('trusted-set-local-storage-item', 'cookie-consent-settings', 'necessary=true&statistics=false&marketing=false&personalization=false')
-play-asia.com##.ui-dialog:has(> .cookie_popup-dialog)
-shtrafy-gibdd.ru###useCookieBanner
 ||assets.prod.abebookscdn.com/*/scripts/utilities/global/cookie-consent-util-
 ||assets.prod.abebookscdn.com/*/scripts/utilities/global/AbeCookie-
 ||assets.prod.abebookscdn.com/*/scripts/components/cookieconsentV2-
-it-and-security.pl,pkgs.org###consent-notice
-sinara.ru##.popups-cookies
-shop.megafon.ru#%#//scriptlet('trusted-set-cookie', 'cookie_toast', 'cookie_toast', '', '/', 'shop.megafon.ru')
-open.firstory.me#%#//scriptlet('trusted-set-local-storage-item', '@firstory/cookie-options', '{"ad_storage":"denied","ad_user_data":"denied","ad_personalization":"denied","analytics_storage":"denied"}')
-uteka.ru#%#//scriptlet('set-cookie-reload', 'uteka_app_accept_cookie_policy_hidden', 'true', '/', 'uteka.ru')
-city.tonami.lg.jp##.sitecookie
-finance.ozon.ru##.app > .wrapper > .wrapper:has(> .biscuits)
-finance.ozon.ru##.biscuits
-narita-airport.jp#%#//scriptlet('set-cookie', 'gdpr_accept', '1')
-esimplus.me##footer ~ div[class^="styles_wrapper__"]:has(> p > a[href*="/privacy"])
-sparks.travel##.ss-cookie-modal-container
-howtogeek.com##.content-block-regular > div[data-show-streamrentbuy-links]
-popcornmovies.*##div[x-show="!cookiePolicy"]
-store.webkul.com##.wk-cookie-wrapper
-teams.live.com##.gather-cookie-banner
-postnews.ru#%#//scriptlet('set-cookie', 'legacy', 'disabled')
-vsk.ru##vsk-cookies-panel
-insurance.mts.ru##div[class^="CookiesPopup_"]
-workspace.ru##.footer-cookies-consent
-bes.media##.ck__modal
-||azs.teboil.ru/local/templates/teboil/js/cookie.js
-sber.ru##div[data-testid="cookie_banner"]
-skysmart.ru##cism-cookies-banner
-sberbank.ru##div[class^="CookieWarning"]
-korona.ru##div[data-testid="Cookie"]
-letu.ru##.web-cookie-popup-settings
-tutu.ru##div[data-ti="disclaimer_wrapper"]
-sport-express.ru###se-cookie-popup
-apteka.103.by##.wrapperCookiesNotification
-rabota.by##.wrapper--QMF5xMv46eTAX87uSvBO
-
-! Meta
-! On facebookcareers.com remove-class cannot be used, because
-! it breaks search function (it's incorrectly displayed when class "_31e" is removed)
-meta.com#%#//scriptlet('trusted-click-element', 'body > div[class="x1n2onr6 x1vjfegm"] div[aria-hidden="false"] div[class]:last-child > div[aria-hidden="true"] + div div[role="button"] > div[role="none"][class^="x1ja2u2z"][class*="xtvsq51"]')
-messenger.com,workplace.com,about.meta.com#%#//scriptlet('trusted-click-element', '.hasCookieBanner button[data-cookiebanner="accept_only_essential_button"]')
-meta.ai#%#//scriptlet('trusted-click-element', 'body > div[class*="x1n2onr6 x1vjfegm"] div[aria-hidden="true"] + div div[role="button"] > div[role="none"][class^="x1ja2u2z"][class*="x1oktzhs"]', '!cookie:wd')
-llama.com#%#//scriptlet('trusted-click-element', 'body > div[class="x1n2onr6 x1vjfegm"] div[aria-hidden="false"] > .x1o1ewxj div[class]:last-child > div[aria-hidden="true"] + div div[role="button"] > div[role="none"][class^="x1ja2u2z"][class*="xtvsq51"]')
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#%#//scriptlet('trusted-click-element', 'div[class]:not([aria-hidden]) > div[aria-label*="cookie" i][role="button"]:not([aria-label*="picture"]):not([data-mcomponent="ImageArea"]):not([aria-label*="story"])')
-business.whatsapp.com#$#body > ._li._31e { position: sticky !important; }
-transparency.meta.com,fort.fb.com,ai.meta.com,transparency.fb.com,business.instagram.com,facebookcareers.com#$#body.hasCookieBanner > ._li._31e { position: sticky !important; }
-transparency.meta.com,fort.fb.com,transparency.fb.com,facebookcareers.com,messenger.com,facebook.com#$#div[data-testid="cookie-policy-dialog"] { display: none !important; }
-ai.meta.com,business.whatsapp.com,business.instagram.com,facebook.com#$#div[data-testid="cookie-policy-manage-dialog"] { display: none !important; }
-metacareers.com##div[data-testid="cookie-policy-manage-dialog"]
-messenger.com,facebook.com#%#//scriptlet("remove-class", "_31e", "body > ._li")
-wit.ai,threads.com#%#//scriptlet('trusted-set-cookie-reload', 'cb', '5_2030_01_01_1')
 
 !   SECTION: Anti-adblock - Yandex direct
 !   NOTE: Yandex
@@ -8327,177 +8262,13 @@ wit.ai,threads.com#%#//scriptlet('trusted-set-cookie-reload', 'cb', '5_2030_01_0
 [$path=/images]ya.ru,yandex.*#%#//scriptlet('abort-on-property-write', '__pcodeAllActiveTestIds')
 [$path=/images]ya.ru,yandex.*#%#//scriptlet('json-prune', 'seatbid rtb direct')
 [$path=/images]ya.ru,yandex.*##.AdvMastHead
-
-!+ PLATFORM(ext_chromium)
-[$path=/images]ya.ru,yandex.*#%#//scriptlet('trusted-suppress-native-method', 'Array.prototype.splice', 'NaN')
-!#if (adguard_ext_safari || adguard_app_ios)
-! In all results
-[$path=/images]ya.ru,yandex.*#$?#.RelatedImages [style="max-width: 100%; max-height: 250px;"] { remove: true; }
-! When open a specific image
-ya.ru,yandex.*#$?#div[class^="ImagesViewer-"][style^="height:"] { remove: true; }
-!#endif
-!
-! Yandex.Maps
-[$path=/\/(maps|navi|web-maps)/]ya.ru,yandex.*#%#//scriptlet('set-constant', 'Object.prototype.isStickyAd', 'undefined')
-!
-! Yandex.Music
-music.yandex.*##.notify > div.deco-tooltip_notify.notify_shown
-!
-! Yandex.Video
-[$path=/video]ya.ru,yandex.*#%#//scriptlet('json-prune', 'rtb seatbid')
-[$path=/video]ya.ru,yandex.*#%#//scriptlet('set-constant', 'Object.prototype.renderDirect', 'throwFunc')
-!
-! Yandex.Afisha
-afisha.yandex.*#%#//scriptlet('prevent-eval-if', 'bidReqIdStr')
-
-!
-! Yandex.Search
-! Main page under the search bar
-ya.ru##aside[class="informers3"] ~ div[class][style]:has(> div > div[style] > div[style^="background-image"] ~ a[target="_blank"])
-yandex.ru##.main__block-banner iframe[src]
-! the ad is on the right side, which is mostly non-reproducible
-[$path=/search]ya.ru,yandex.*#%#//scriptlet('remove-node-text', 'script', '/^window\.Ya.*pcodeParams.*renderTo/')
-!
-! Yandex.TV
-tv.yandex.*#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderDirect')
-tv.yandex.*#%#//scriptlet('json-prune', 'rtb')
-!
-! Yandex.Realty
-realty.ya.*#%#//scriptlet('json-prune', 'rtb direct')
-!
-! Turbopages
-turbopages.org#%#//scriptlet('json-prune', '*.blockId')
-!
-! Yandex.Games
-[$path=/games]yandex.*#%#//scriptlet('json-prune', 'advEnabledByPartner')
-[$path=/games]yandex.*#%#//scriptlet('json-prune', 'direct rtb')
-!
-! Yandex.Q
-[$path=/q]yandex.*#%#//scriptlet('json-prune', 'direct rtb')
-!
-! shedevrum.ai
-shedevrum.ai#%#//scriptlet('set-constant', 'Object.prototype.isStickyAd', 'undefined')
-shedevrum.ai###app > div.z-\[12\].bg-white
-@@||shedevrum.ai^$generichide
-!
-! END: Yandex
-!
-!
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
-! pikabu.ru
-pikabu.ru##.b-page-story__bf-comments > div.story:not(:has(*))
-/pikabu.ru\/ajax\/[\w\d]+\?[\w\d]+=[\w\d-]+$/$xmlhttprequest,domain=pikabu.ru
-pikabu.ru#%#//scriptlet('abort-current-inline-script', 'XMLHttpRequest', 'xhr.withCredentials')
-! comedy-radio.ru
-comedy-radio.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderDirect')
-! relax-fm.ru
-relax-fm.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderDirect')
-!#endif
-! https://github.com/AdguardTeam/AdguardFilters/issues/142800
-!+ NOT_PLATFORM(windows, mac, android)
-rg.ru#%#//scriptlet('set-constant', 'Object.prototype.renderTo', 'undefined')
-!
-! sm.news
-sm.news#?#div:not([class="col-home"]):has(> div[id^="bar"])
-sm.news##div[id^="bar"]
-!
-!
-! sm.news,amedia.online, sdamgia.ru
-sm.news,amedia.online,sdamgia.ru#%#//scriptlet("abort-on-property-read", "Object.prototype.RenderMarks")
-sdamgia.ru##div[role="main"] div[style*="color:red;"]
-sdamgia.ru##.PageLayout-Main > div[class*="_fixedHeight"]
-!
-! drive2.ru
-! gismeteo domains: gismeteo.ru,gismeteo.by,gismeteo.pl,gismeteo.lt,gismeteo.md,gismeteo.kz
-gismeteo.ru,gismeteo.by,gismeteo.md,gismeteo.kz#%#//scriptlet("abort-on-property-read", "Object.prototype.getAdditionalBanners")
-! https://github.com/AdguardTeam/AdguardFilters/issues/81066
-kakprosto.ru#%#//scriptlet("abort-on-property-read", "Object.prototype.Rtb")
 !
 !   SECTION: Anti-adblock - VK group
 !   NOTE START: VK group
-!
-! mail.ru
+
 mail.ru#%#//scriptlet('remove-class', 'grid_blocked_by_informer', 'main#grid')
 mail.ru#%#//scriptlet('abort-on-property-write', 'mr._mimic.locator.transform')
 mail.ru##div[class^="tgb"][class*="wrapper__trap"]
 mail.ru##body > div:has(> div > div.buttonWrapper > div.button-help)
 mail.ru##div[slot="main-column"] > div.stripe-wrapper
-! e.mail.ru
-e.mail.ru,octavius.mail.ru#%#//scriptlet('prevent-setTimeout', 'autoupdate', '100')
-e.mail.ru,octavius.mail.ru#%#//scriptlet('prevent-setTimeout', 'adman_')
-news.mail.ru,e.mail.ru,octavius.mail.ru#%#//scriptlet('abort-on-stack-trace', 'Promise', 'onSlotRender')
-e.mail.ru,octavius.mail.ru#%#//scriptlet('remove-class', 'scrollable_top-line-adv-2pane|scrollable_top-line-adv-2pane_high-block|scrollable_top-line-adv-2pane_pony-mode', '.scrollable')
-e.mail.ru,octavius.mail.ru#%#//scriptlet('remove-class', 'letter-list_top-line-adv-2pane|letter-list_top-line-adv-2pane_pony-mode|letter-list_topline-touch-adv|letter-list_top-line-adv-2pane_high-block', '.letter-list')
-mail.ru#?#body > div > style + div:has(> div > div.description:contains(/До[баба]вьт[ее] Mail в исключения/))
-news.mail.ru#?#body > div:has(> div[id] > div > div.title:contains(блокировщика рекламы))
-! Main page
-!
-! Pogoda
-[$path=/pogoda]dzen.ru##div[data-bem*="segment-details"] > article.card ~ div[class]
-!
 ! END: VK group
-!   NOTE: VK group end ⬆️
-!   !SECTION: Anti-adblock - VK group
-!
-!
-!
-!   SECTION: Anti-adblock - Rambler group
-!   NOTE START: Rambler group
-! rambler with side-projects: afisha.ru, autorambler.ru, championat.com, eda.ru, gazeta.ru, lenta.ru, letidor.ru, moslenta.ru, motor.ru, passion.ru, quto.ru, rambler.ru, rns.online, wmj.ru
-rambler.ua,rambler.ru#%#//scriptlet('set-cookie', '_blocker_hidden', '1')
-!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-!#safari_cb_affinity(general)
-rambler.ua,rambler.ru#@#.ad
-rambler.ua,rambler.ru#@#.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not(.blocker-tester + .ad-banner)
-rambler.ua,rambler.ru#@#.adbanner
-rambler.ua,rambler.ru#@#.nav-ad
-rambler.ua,rambler.ru#@#.pub_300x250
-rambler.ua,rambler.ru#@#.pub_300x250m
-rambler.ua,rambler.ru#@#.pub_728x90
-rambler.ua,rambler.ru#@#.text-ad
-rambler.ua,rambler.ru#@#.textAd
-rambler.ua,rambler.ru#@#.text_ad
-rambler.ua,rambler.ru#@#.text_ads
-rambler.ua,rambler.ru#@#.text-ads
-rambler.ua,rambler.ru#@#.text-ad-links
-!#safari_cb_affinity
-!#endif
-!
-rambler.ru##.banner--container
-rambler.ru##div[data-marker-observer]
-rambler.ru##.comments__read-also-title
-rambler.ru##.comments__partners
-!
-! championat.com
-!+ NOT_PLATFORM(windows, mac, android)
-championat.com#%#//scriptlet('json-prune', 'Blocks')
-! subdomains: news.rambler.ru,kino.rambler.ru,sport.rambler.ru,auto.rambler.ru,finance.rambler.ru,woman.rambler.ru,weekend.rambler.ru,travel.rambler.ru,doctor.rambler.ru
-! Check, if these sites work fine with scriptlet: mail.rambler.ru, kino.rambler.ru, weather.rambler.ru, comments.rambler.ru, kassa.rambler.ru, horoscopes.rambler.ru
-!
-!   NOTE: Rambler group end ⬆️
-!   !SECTION: Anti-adblock - Rambler group
-!
-! sports.ru
-sports.ru#%#//scriptlet('set-constant', 'Object.prototype.renderDirect', 'undefined')
-sports.ru#%#//scriptlet('set-local-storage-item', 'sports:views:anti-adblock:shower', 'null')
-! NOTE: Ads reinjection end ⬆️
-! !SECTION: Anti-adblock - ads reinjection
-!
- NOTE: 'mdpDeBlocker'
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=noopjs,domain=texture-packs.com|xdarom.com
-! #%#//scriptlet("abort-on-property-read", "mdp_deblocker")
-texture-packs.com#%#//scriptlet("abort-on-property-read", "mdpDeBlockerDestroyer")
-! #%#//scriptlet('prevent-setTimeout', 'mdp-deblocker')
-wpnull7.com,xdarom.com#%#//scriptlet('prevent-setTimeout', 'mdp-deblocker')
-! #%#//scriptlet("abort-on-property-read", "mdpDeBlocker")
-! #%#//scriptlet('prevent-eval-if', 'adsBlocked')
-katoikos.world#%#//scriptlet('prevent-eval-if', 'adsBlocked')
-!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-!#safari_cb_affinity(general)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=texture-packs.com|xdarom.com|katoikos.world
-@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_*.js$domain=texture-packs.com
-@@||googleads.g.doubleclick.net/pagead/id|$domain=texture-packs.com
-@@||googleads.g.doubleclick.net/pagead/id?slf_rd=1$domain=texture-packs.com
-!#safari_cb_affinity
-!#endif
-
