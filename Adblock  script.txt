@@ -4,14 +4,6 @@
 ! Description: Filter of web resources (phishing, ads, malware, trackers) 
 !! Last updated: 2026-11-22
 
-
-
-
-
-
-
-
-
 ||a.wb.ru/sdk/sdk.js$script
 ||image.sendsay.ru/app/js/forms/forms.min.js$script
 ||cdn-rtb.sape.ru/js/uids.js$script
