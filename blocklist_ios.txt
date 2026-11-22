@@ -327,7 +327,6 @@
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
 ||www.googletagservices.com^
-||www.googleapis.com^
 ||play.googleapis.com^
 ||iosantiabuse-pa.googleapis.com^
 ||suggestqueries.l.google.com^
@@ -337,13 +336,11 @@
 ||clients.l.google.com^
 ||play.google.com^
 ||img.youtube.com^
-||notifications-pa.googleapis.com^
 ||cache1.c.youtube.com^
 ||lscache1.c.youtube.com^
 ||redirector.c.youtube.com^
 ||redirector.googlevideo.com^$important
 ||restrict.youtube.com^
-||lh3.googleusercontent.com^
 ||lh4.googleusercontent.com^
 ||lh5.googleusercontent.com^
 ||lh6.googleusercontent.com^
