@@ -2,7 +2,7 @@
 ! Title:  Blocklist iOS
 ! Homepage:https://github.com/igmand/adblock-list
 ! Description: Filter of malicious web resources (phishing, ads, malware, trackers) targeting ios
-!! Last updated: 2026-11-22
+!! Last updated: 2026-11-23
 
 ||ads.mopub.com^$important
 ||crashlytics.com^$important
@@ -24,6 +24,7 @@
 ||app-analytics-services.com^
 ||api-adservices.apple.com^
 ||api.onesignal.com^
+||api*.amplitude.com^
 ||inmobi.com^
 ||data.flurry.com^
 ||pangle.io^
@@ -76,7 +77,6 @@
 ||yandex.by/an/count/$app=~com.yandex.browser
 ||metrika.js^
 ||egress.yandex.net^
-||in-addr.arpa^
 ||gnezdo.ru^
 ||sape.ru^
 ||relap.io^
@@ -147,7 +147,7 @@
 ||suggest.perplexity.ai^
 ||an.count.ya.ru^$important
 ||yandex.ru/an/count/^$important
-|yandex.by/an/count/^$important
+||yandex.by/an/count/^$important
 ||ads.adfox.yandex.ru^$important
 ||awaps.yandex.net^
 ||counters.ya.ru^$important
@@ -223,7 +223,6 @@
 ||aj1907.online^
 ||cdn77.aj2178.online^
 ||cdn.digitalcaramel.com^
-||cdn.jsdelivr.net^
 ||wp.com^
 ||games-api.appgeneration.com^
 ||x.everestop.io^
@@ -256,6 +255,13 @@
 ||trackers.mlsub.net^
 ||tracker.renfei.net^
 ||tracking.banki.ru^
+||ipify.org^
+||api.ipify.org^
+||ifconfig.me^
+||snowplow-pixel.tradingview.com^
+||mobile-sp.tradingview.com^
+||lb._dns-sd._udp.bbrouter^$important
+||xz.fbcdn.net^
 ||dmp.sbermarketing.ru^
 ||adservings.ru^
 ||cdn.onesignal.com^
@@ -336,11 +342,13 @@
 ||clients.l.google.com^
 ||play.google.com^
 ||img.youtube.com^
+||notifications-pa.googleapis.com^
 ||cache1.c.youtube.com^
 ||lscache1.c.youtube.com^
 ||redirector.c.youtube.com^
 ||redirector.googlevideo.com^$important
 ||restrict.youtube.com^
+||lh3.googleusercontent.com^
 ||lh4.googleusercontent.com^
 ||lh5.googleusercontent.com^
 ||lh6.googleusercontent.com^
@@ -375,9 +383,13 @@
 ||*.google-analytics.com/collect^$image,1x1,important
 ||*.facebook.com/tr^$image,1x1,important
 ||*.doubleclick.net/*/pixel^$image,1x1,important
+||adtrafficquality.google^
+||stun.l.google.com^
 
  !! Blocks Apple native broadband tracker
 ||gateway.icloud.com^
+||in-addr.arpa^$important
+||*.in-addr.arpa^
 ||iphone-ld.apple.com^
 ||cl3.apple.com^
 ||gs-loc.apple.com^
@@ -518,6 +530,7 @@
 ||youtubei/v1/log_event?alt=json^
 
 
+
 ! Block telemetry
 ||beacon.*^
 /beacon/event/*
@@ -566,6 +579,7 @@
 ||yandex.by/clck/click/^
 ||ext-cloudcdn-mnskbeltel-01.cdn.yandex.net^
 ||network-lc.ru^
+||startup.mobile.yandex.net^
 ||an.count.ya.ru^
 ||api.browser.yandex.ru^
 ||api.browser.yandex.by^
@@ -576,8 +590,23 @@
 ||browser.yandex.ru^
 ||keyboard.yandex.net^
 ||api.messenger.yandex.net^
+||cloud-api.yandex.net^
 ||burp^
 ||startup.mobile.webvisor.com^
+||oneme.ru^
+||queuev4.vk.ru^
+||persiq.vk.com^
+||*.userapi.com^
+||clientapi.mail.ru^
+||omicron.bbrouter^
+||omicron^
+||ip.mail.ru^
+||ipv4.mail.ru^
+||internal.api.vk.ru^
+||calls.okcdn.ru^
+||m.mradx.net^
+||eh.vk.com^
+
 
 ! Block dangerous scripts and executable files
 ! === Group 1: never legitimate web resources — all request types ===
@@ -589,6 +618,22 @@
 ! === Narrow exception: corporate macro templates ===
 @@||sharepoint.corp.example.com^*/Reports/*.xlsm$important
 
+
+||mailgun.org^
+||brevo.com^
+||sp1-brevo.net^
+||ynuf.aliapp.org^
+||mintegral.net^
+||rayjump.com^
+||pangle.io^
+||pangle-b.io^
+||api.x3mads.com^
+||h-adashx4ae.ut.taobao.com^
+||supersonicads.com^
+||magnite.com^
+||checkip.amazonaws.com^
+||tracking-app.diginetica.net^
+||analytics.twitter.com^
 ||acdn.adnxs.com^
 ||ads.pubmatic.com^
 ||adx.adform.net^
